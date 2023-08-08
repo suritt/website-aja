@@ -78,12 +78,20 @@ const About = () => {
             <div className="col-md-6 mt-5 order-5">
               <div className="section-heading">
                 <span>About us</span>
-                <h2>About CWPH-LNMIIT</h2>
+                <h2>Un poco de historia...</h2>
                 <p>
-                El 9 de setiembre de 1981, se firma el Boleto de Compra venta con la Municipalidad de la Ciudad de Buenos Aires, por un predio municipal ubicado en la Avenida Cruz con el objetivo de construir un Campo Deportivo y un Hogar. En 1983 se firma la escritura. En dicho predio se construyó una cancha, de fútbol, de patín, básquet, pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.               
-                </p>
+                  El 9 de setiembre de 1981, se firma el Boleto de Compra venta con la Municipalidad de la Ciudad 
+                  de Buenos Aires, por un predio municipal ubicado en la Avenida Cruz con el objetivo de construir 
+                  un Campo Deportivo y un Hogar. En 1983 se firma la escritura. 
+                 </p>
+                <br></br>
                 <p>
-                  
+                  En dicho predio se construyó una cancha, de fútbol, de patín, básquet, 
+                  pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, 
+                  oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros 
+                  concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, 
+                  radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.               
+                
                 </p>
 
               </div>

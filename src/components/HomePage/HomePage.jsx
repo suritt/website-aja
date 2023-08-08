@@ -18,11 +18,12 @@ const HomePage = () => {
                 <h1 className="welcome">
                   Asociación Juvenil Araucana
                 </h1>
-                {/* <div className="description">
+                
+                 <div className="description">
                   When you are joyful, when you say yes to life and have fun and
                   project positivity all around you, you become a sun in the center
                   of every constellation, and people want to be near you!
-                </div> */}
+                </div> 
               </div>
             </div>
           </div>
@@ -35,7 +36,7 @@ const HomePage = () => {
             <div className="col-md-12">
               <div className="section-header">
                 <div className="section-heading-content">
-                  <h2> Nuestra Institución</h2>
+                  <h2> Quienes somos ? </h2>
                   <p>
                   Somos una Institución sin fines de lucro, fundada en 1978 por
 un grupo de padres de personas con discapacidad intelectual,
