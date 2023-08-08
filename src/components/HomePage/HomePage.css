@@ -1,6 +1,6 @@
 /* Banner Style */
 .banner {
-  background-image: url("");
+  background-image: url("./../../../public/images/nuevas/fondo.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 300px 0px;

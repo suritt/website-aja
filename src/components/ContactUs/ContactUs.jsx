@@ -16,10 +16,8 @@ const ContactUs = () => {
             <div className="col-md-12">
               <h1 style={style}>Contactanos</h1>
               <p style={style}>
-                
-                  
-                
-                / <span style={style}></span>
+      
+                 <span style={style}></span>
               </p>
             </div>
           </div>

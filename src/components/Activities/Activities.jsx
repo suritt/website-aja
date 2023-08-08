@@ -100,12 +100,12 @@ function Activities() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 style={style}>galería</h1>
+              <h1 style={style}>Galería</h1>
               <p style={style}>
                 <a style={style} href="/">
                  
                 </a>{" "}
-                / <span style={style}>Activities</span>
+                 <span style={style}>Activities</span>
               </p>
             </div>
           </div>
