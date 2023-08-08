@@ -365,8 +365,7 @@ function Activities() {
                     Eliminating stress & worry from life by AICTE on April 12,2021
                   </h5>
                   <p>
-                    Faculty Development Cell (FDC), AICTE organized an online to help
-                    Faculty Members
+                   
                   </p>
                 </li>
               </ul>

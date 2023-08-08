@@ -222,7 +222,7 @@ de la implementaron de actividades tendientes a alcanzar el
                 </div>
                 <div className="team_name">
                   <h4>Prof. A.P. Singh</h4>
-                  <p>Faculty</p>
+                  <p></p>
                   <p className="mt-20"></p>
                   {/* <div className="social">
                     <a href="#">
@@ -284,7 +284,7 @@ de la implementaron de actividades tendientes a alcanzar el
                 </div>
                 <div className="team_name">
                   <h4>Mr. Mukesh Jadon</h4>
-                  <p>Faculty</p>
+                  <p></p>
                   <p className="mt-20"></p>
                   {/* <div className="social">
                     <a href="#">

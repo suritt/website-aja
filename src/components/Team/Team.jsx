@@ -99,9 +99,9 @@ const Team = () => {
             <div className="col-md-8">
               <div className="section-heading">
                 {/* <span>Our Team</span> */}
-                <h2>Meet the greatest people</h2>
+                <h2>Nuestro Equipo</h2>
                 <p>
-                  Meet the members and co-ordinators of Center For Wellness and Positive Health.
+
                 </p>
               </div>
             </div>
