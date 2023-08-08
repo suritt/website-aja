@@ -20,9 +20,7 @@ const HomePage = () => {
                 </h1>
                 
                  <div className="description">
-                  When you are joyful, when you say yes to life and have fun and
-                  project positivity all around you, you become a sun in the center
-                  of every constellation, and people want to be near you!
+                  
                 </div> 
               </div>
             </div>
