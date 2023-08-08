@@ -9,6 +9,7 @@ import Us from "./components/ContactUs/ContactUs";
 import About from "./components/About/About";
 import Developers from "./components/Developers/Developers";
 import ActivityDetails from './components/Activity-Details/ActivityDetails'
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (

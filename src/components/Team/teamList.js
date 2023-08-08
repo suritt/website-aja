@@ -3,8 +3,8 @@ export const teamList = [
     designation: "Faculty",
     list: [
       {
-        name: "Dr. Amit Neogi",
-        responsibility: "Center Lead",
+        name: "Olive Balda, Jaime Pedro",
+        responsibility: "Presidente",
         image: "/images/team-images/amit-neogi-sir.jpg",
       },
       {

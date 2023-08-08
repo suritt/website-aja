@@ -13,7 +13,7 @@ const Team = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 style={style}>Quienes somos</h1>
+              <h1 style={style}>Actividades</h1>
               <p style={style}>
                 <a style={style} href="/">
                   
@@ -50,13 +50,31 @@ const Team = () => {
                 <div className="section-heading">
                   {/* <span>About Us</span> */}
                   <h2>Centro de día y Hogar para personas con discapacidad Intelectual</h2>
-                  <p> En el marco de nuestra Institución, entendemos por Centro de día al servicio que tiene por objeto posibilitar a la persona con discapacidad el más adecuado desempeño en la vida cotidiana, mediante la implementación de actividades tendientes a alcanzar el máximo desarrollo posible de sus potencialidades. Fundamentalmente el objetivo es lograr el mayor nivel de independencia posible, brindando la contención que el caso requiere.
-                  
-                  
+                  <p> En el marco de nuestra Institución, entendemos por Centro de día al servicio 
+                    que tiene por objeto posibilitar a la persona con discapacidad el más adecuado 
+                    desempeño en la vida cotidiana, mediante la implementación de actividades
+                     tendientes a alcanzar el máximo desarrollo posible de sus potencialidades. 
+                     Fundamentalmente el objetivo es lograr el mayor nivel de independencia posible, 
+                     brindando la contención que el caso requiere.
 
+                     </p>
+                <br></br>
+                
+                    
 
- 
-                  </p>
+                 <p> En  la actualidad administramos dos Centros de Día, El mas antiguo, en la localidad de Munro, posee una superficie de 1200 metros cuadrados al que asisten 45 concurrentes con una comunidad educativa de 22 empleados.
+El segundo Centro de Día, ubicado en la localidad de Villa Soldati de la Ciudad Autónoma de Buenos Aires,
+ posee un predio de 14.500 metros cuadrados entre parque y edificaciones incluyendo al Hogar, 
+ y al que asisten 90 concurrentes con una comunidad educativa de 47 empleados.</p>
+  
+ <br></br>      
+ <p></p>Desde este otro recurso Institucional brindamos una cobertura de Vivienda, alimentación, 
+ recreación, atención y apoyo a las personas con discapacidad intelectual carentes de grupo 
+ familiar propio o qué teniendo un grupo familiar, éste no pueda ser continente. 
+ Está emplazado dentro del predio de Villa Soldati antes mencionado abarcando una superficie 
+ de 1.150 metros cuadrados albergando a 45 residentes y una plantilla de empleados que asciende a 25 personas<p></p>.
+
+            
                 </div>
                 {/* <Tabs
                   defaultActiveKey="home"

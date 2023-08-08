@@ -37,6 +37,7 @@ const HomePage = () => {
               <div className="section-header">
                 <div className="section-heading-content">
                   <h2> Quienes somos ? </h2>
+                  
                   <p>
                   Somos una Institución sin fines de lucro, fundada en 1978 por
 un grupo de padres de personas con discapacidad intelectual,
@@ -45,6 +46,15 @@ discapacidad el adecuado desempeño en la vida cotidiana, a través
 de la implementaron de actividades tendientes a alcanzar el
  máximo desarrollo de sus potencialidades.
                   </p>
+                  <br></br>
+                  <p>
+                  En el año 2015 abre sus puertas el Hogar para personas con discapacidad intelectual con 1150 m2 construidos y capacidad para 45 personas. Con la apertura del mismo se cierra el ciclo del objetivo inicial buscado de ofrecer una solución habitacional estable y definitiva para nuestros concurrentes carentes de grupo familiar propio o continente.
+Nuestros logros, son fruto del esfuerzo y del trabajo de muchos padres que durante muchos años
+ han estado colaborado, aportando su tiempo y dedicación, al igual que de cada una de las personas 
+ que prestan servicio en nuestra entidad.
+
+</p>
+                  
                 </div>
                 <div className="section-heading-image">
                   <img src="/images/nuevas/Portada.jpg" alt="" />
@@ -186,8 +196,7 @@ de la implementaron de actividades tendientes a alcanzar el
                 <div className="team_img">
                   <img
                     className="host-image"
-                    src="/images/team-images/amit-neogi-sir.jpg"
-                    alt=""
+                    
                   />
                 </div>
                 <div className="team_name">

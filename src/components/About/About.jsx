@@ -86,7 +86,7 @@ const About = () => {
                  </p>
                 <br></br>
                 <p>
-                  En dicho predio se construyó una cancha, de fútbol, de patín, básquet, 
+                   predio se construyó una cancha, de fútbol, de patín, básquet, 
                   pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, 
                   oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros 
                   concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, 
