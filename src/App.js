@@ -5,7 +5,7 @@ import Activities from "./components/Activities/Activities";
 import Team from "./components/Team/Team";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import ContactUs from "./components/ContactUs/ContactUs";
+import Us from "./components/ContactUs/ContactUs";
 import About from "./components/About/About";
 import Developers from "./components/Developers/Developers";
 import ActivityDetails from './components/Activity-Details/ActivityDetails'

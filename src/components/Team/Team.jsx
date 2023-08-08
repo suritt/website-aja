@@ -49,7 +49,7 @@ const Team = () => {
               <div className="right-content">
                 <div className="section-heading">
                   {/* <span>About Us</span> */}
-                  <h2>Acerca de nuestra institución</h2>
+                  <h2>Centro de día y Hogar para personas con discapacidad Intelectual</h2>
                   <p> En el marco de nuestra Institución, entendemos por Centro de día al servicio que tiene por objeto posibilitar a la persona con discapacidad el más adecuado desempeño en la vida cotidiana, mediante la implementación de actividades tendientes a alcanzar el máximo desarrollo posible de sus potencialidades. Fundamentalmente el objetivo es lograr el mayor nivel de independencia posible, brindando la contención que el caso requiere.
                   
                   

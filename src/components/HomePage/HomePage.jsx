@@ -46,7 +46,7 @@ de la implementaron de actividades tendientes a alcanzar el
                   </p>
                 </div>
                 <div className="section-heading-image">
-                  <img src="/images/nuevas/ajap.jpg" alt="" />
+                  <img src="/images/nuevas/Portada.jpg" alt="" />
                 </div>
               </div>
             </div>

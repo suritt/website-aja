@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import "./ContactUs.css";
+import "./Contact Us.css";
 
 const ContactUs = () => {
   const style = {

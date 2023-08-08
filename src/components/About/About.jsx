@@ -42,7 +42,7 @@ const About = () => {
                   the engineering courses offered by the institute are recognised by
                   ACITE. The institute offers merit-based admission to 2 UG, 1
                   Integrated, 2 PG and 1 doctorate programme (BTech, BTech (Hons),
-                  BTech-MTech Integrated, MTech, MS by Research, MSc and PhD) across
+                  BTech-MTech Integrated, MTechj, MS by Research, MSc and PhD) across
                   six departments and 26 specialisations, namely Computer Science and
                   Engineering, Electronics and Communication Engineering,
                   Mechanical-Mechatronics Engineering, Mathematics, Physics and
