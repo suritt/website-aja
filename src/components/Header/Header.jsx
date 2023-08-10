@@ -1,6 +1,12 @@
 import "./Header.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
+import YoutubeLogo from "./../../logos/Youtube.png";
+import InstagramLogo from "./../../logos/Instagram.png";
+import Facebooklogo  from "./../../logos/Facebook.png";
+import AjaLogo  from "./../../logos/logo.png";
+
+
 const Header = () => {
   return (
     //  Header
@@ -8,7 +14,8 @@ const Header = () => {
       <Navbar bg="default" expand="lg" style={{ backgroundColor: "white" }}>
         <Container fluid>
           <Navbar.Brand className="align-middle" href="/">
-            <img src="../../../public/images/nuevas/logo.jpg" alt="icono logo"/>
+            <img src={AjaLogo} alt="Aja Logo" height={50} width={50} />
+
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -29,7 +36,15 @@ const Header = () => {
               <Nav.Link href="/contact" style={{ fontWeight: "bold" }}>
                 Contacto
               </Nav.Link>
-
+              <Nav.Link href="https://youtube.com" style={{ fontWeight: "bold" }}>
+                <img src={YoutubeLogo} alt="youtube Logo" height={22} width={30} />
+               </Nav.Link>
+              <Nav.Link href="https://instagram.com" style={{ fontWeight: "bold" }}>
+              <img src={InstagramLogo} alt="instragram Logo" height={30} width={30} />
+              </Nav.Link>
+              <Nav.Link href="https://facebook.com" style={{ fontWeight: "bold" }}>
+              <img src={Facebooklogo} alt="facebook Logo" height={30} width={30} />
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

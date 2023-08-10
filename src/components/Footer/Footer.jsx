@@ -1,6 +1,10 @@
 import React from "react";
 import "./Footer.css";
 
+import Facebooklogo  from "./../../logos/Facebook.png";
+import Instagramlogo  from "./../../logos/Instagram.png";
+import Youtubelogo  from "./../../logos/Youtube.png";
+
 const Footer = () => {
   return (
     <footer>
@@ -20,34 +24,51 @@ const Footer = () => {
           <div className="col-md-4 col-sm-6 col-xs-12">
             <div className="footer-item">
               <div className="footer-heading">
-                <h2>Useful Links</h2>
+                <h2>Seguinos en</h2>
               </div>
               <ul className="footer-list">
                 <li>
                   <a
-                    href="https://www.youtube.com/channel/UCg4Q0WuhLaEitFxmMTHt2EQ"
+                    href="https://www.youtube.com"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img
-                      src="/images/youtube.svg"
-                      // src="https://img.icons8.com/color/25/000000/youtube-play.png"
-                      style={{ marginRight: "10px", width: "25px" }}
-                    />
+                  <img src={Youtubelogo} alt="youtube Logo"      
+                    style={{
+                        marginRight: "10px",
+                        width: "25px",
+                      }} 
+                  />  
                     Youtube
                   </a>
                 </li>
                 <li>
                   <a href="/developers" rel="noreferrer">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/b/be/Source_code_project_1171.svg"
-                      style={{
+
+                  <img src={Facebooklogo} alt="youtube Logo"      
+                    style={{
                         marginRight: "10px",
                         width: "25px",
-                        filter: "invert(90%)",
-                      }}
-                    />
-                    Developers
+                      }} 
+                  />
+                    Facebook
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.instagram.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    
+                    <img src={Instagramlogo} alt="Instagram Logo"      
+                    style={{
+                        marginRight: "10px",
+                        width: "25px",
+                      }} 
+                  />
+                    Instagram
                   </a>
                 </li>
                 {/* <li>
@@ -88,10 +109,7 @@ const Footer = () => {
           <div className="col-md-12">
             <div className="sub-footer">
               <p>
-                Copyright &copy; 2022 <br />
-                <a rel="nofollow" href="https://www.lnmiit.ac.in/">
-                  The LNM Institute of Information technology
-                </a>
+                Copyright &copy; 2023 Sur-IT <br />
               </p>
             </div>
           </div>

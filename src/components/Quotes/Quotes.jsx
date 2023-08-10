@@ -35,21 +35,26 @@ const Quotes = () => {
       autoPlay={true}
       interval={3500}
     >
-      <div>
-        <div className="myCarousel">{random()}</div>
-      </div>
-      <div>
-        <div className="myCarousel">{random()}</div>
-      </div>
-      <div>
-        <div className="myCarousel">{random()}</div>
-      </div>
-      <div>
-        <div className="myCarousel">{random()}</div>
-      </div>
-      <div>
-        <div className="myCarousel">{random()}</div>
-      </div>
+        <div>
+          <h5>Testimonios</h5>
+        </div>
+        <div>
+          <div className="myCarousel">{random()}</div>
+        </div>
+        <div>
+          <div className="myCarousel">{random()}</div>
+        </div>
+        <div>
+          <div className="myCarousel">{random()}</div>
+        </div>
+        <div>
+          <div className="myCarousel">{random()}</div>
+        </div>
+        <div>
+          <div className="myCarousel">{random()}</div>
+        </div>
+   
+
     </Carousel>
   );
 };

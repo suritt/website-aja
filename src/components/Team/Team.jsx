@@ -35,7 +35,7 @@ const Team = () => {
                 <img
                   // src="https://resizer.in/tmp/[Resizer.in]-621a530a3d0fc.com"
                   src="/images/"
-                  // src="images/team-images/cwph-team-photo.png"
+                  // <img src="/images/nuevas/taller_1" alt="" />
                   alt=""
                   className="w-100"
                   style={{
@@ -72,7 +72,7 @@ El segundo Centro de Día, ubicado en la localidad de Villa Soldati de la Ciudad
  recreación, atención y apoyo a las personas con discapacidad intelectual carentes de grupo 
  familiar propio o qué teniendo un grupo familiar, éste no pueda ser continente. 
  Está emplazado dentro del predio de Villa Soldati antes mencionado abarcando una superficie 
- de 1.150 metros cuadrados albergando a 45 residentes y una plantilla de empleados que asciende a 25 personas<p></p>.
+ de 1.150 metros cuadrados albergando a 45 residentes y una plantilla de empleados que asciende a 25 personas<p></p>
 
             
                 </div>
