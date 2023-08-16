@@ -5,7 +5,7 @@ const QuotesData = [
     quoteAuthor: "Thomas Edison",
   },
   {
-    quoteText: "You can observe a lot just by watching.",
+    quoteText: "You can E observe a lot just by watching.",
     quoteAuthor: "Yogi Berra",
   },
   {
