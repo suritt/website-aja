@@ -1,64 +1,51 @@
 export const teamList = [
   {
-    designation: "Faculty",
+    designation: "Arte",
     list: [
       {
-        name: "Olive Balda, Jaime Pedro",
-        responsibility: "Presidente",
+        name: "Musica",
+        responsibility: "Tango, Folclore, etc (distintos generos)",
         image: "/images/team-images/amit-neogi-sir.jpg",
       },
       {
-        name: "Prof. A P Singh",
-        responsibility: "Faculty",
+        name: "Teatro",
+        responsibility: "Práctica con obras y expresion escenica.",
         image: "images/team-images/ap-singh-sir.jpg",
       },
       {
-        name: "Mr. Manuj Sharma",
-        responsibility: "Training and Placement Officer",
+        name: "Plastica",
+        responsibility: "Trabajos con manualidades, collage y elementos de pintura",
         image: "/images/team-images/manuj-sharma-sir.jpg",
       },
+     
       {
-        name: "Mr. Mukesh Kumar Jadon",
-        responsibility: "Faculty",
-        image: "/images/team-images/mukesh-jadon-sir.jpg",
-      },
-      {
-        name: "Dr. Anirudh Agarwal",
-        responsibility: "Faculty",
-        image: "/images/team-images/anirudh-agarwal-sir.jpg",
-      },
-      {
-        name: "Dr. Vikram Sharma",
-        responsibility: "Faculty",
-        image: "/images/team-images/vikram-sharma-sir.jpg",
-      },
-      {
-        name: "Dr. Shweta Bhandari",
-        responsibility: "Faculty",
-        image: "/images/team-images/shweta-bhandari-mam.jpg",
-      },
-      {
-        name: "Mr. Nirmal Kumar",
-        responsibility: "Faculty",
-        image: "/images/team-images/nirmal-kumar-sir.jpg",
-      },
-      {
-        name: "Dr. Shweta Pandey",
-        responsibility: "Faculty",
-        image: "/images/team-images/shweta-pandey-mam.jpg",
-      },
-      {
-        name: "Dr. Kanjalochan Jena",
+        name: "Produccion",
         responsibility: "Faculty",
         image: '/images/team-images/kanjalochan-jena-sir.jpg'
       }
     ],
   },
   {
-    designation: "Counsellors",
+    designation: "Deportes",
     list: [
       {
-        name: "Mrs. Arshitaa Nair",
+        name: "Basquet",
+        responsibility: "Practica de baloncesto",
+        image: "/images/team-images/arshitaa-nair-mam.jpg",
+      },
+      {
+        name: "Futbol",
+        responsibility: "Canchas al aire libre",
+        image: "/images/team-images/arshitaa-nair-mam.jpg",
+      },
+      {
+        name: "Gimnasia",
+        responsibility: "Moderadora, Esferodinamia, etc..",
+        image: "/images/team-images/arshitaa-nair-mam.jpg",
+      },
+      {
+        name: "Natacion",
+        responsibility: "En Verano e invierno",
         image: "/images/team-images/arshitaa-nair-mam.jpg",
       },
     ],
@@ -97,84 +84,59 @@ export const teamList = [
 
 export const studentList = [
   {
-    designation: "Student Members",
+    designation: "Comision directiva",
     name_list: [
       {
-        name: "Aashi Bansal",
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
       },
       {
-        name: "Aman Agarwal",
+        name: "Rollino Ruben",
+        descripcion: "Vicepresidente",
       },
       {
-        name: "Atharva Toshniwal",
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
       },
       {
-        name: "Janmejay Rathod",
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
+      },   {
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
       },
       {
-        name: "Subrat Gupta",
-      }
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
+      },
+      {
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
+      },
     ]
   },
   {
-    designation: "Alumni",
+    designation: "Comisión revisora de cuentas",
     name_list: [
       {
-        name: "Kaustubh Nirwan",
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
       },
       {
-        name: "Abhishek Kalra",
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
       },
       {
-        name: "Pranshu Ananya",
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
       },
       {
-        name: "Kartikay Johri",
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
       },
       {
-        name: "Abhimanyu Singh",
-      },
-      {
-        name: "Aman Upadhyay",
-      },
-      {
-        name: "Shivansh Baijal",
-      },
-      {
-        name: "Ayush Agarwal"
-      },
-      {
-        name: "Lokesh Kumar Israni",
-      },
-      {
-        name: "Komal Kungwani",
-      },
-      {
-        name: "Saurav Kishore",
-      },
-      {
-        name: "Anshu Musaddi",
-      },
-      {
-        name: "Harsh Mehta",
-      },
-      {
-        name: "Naman Mathur",
-      },
-      {
-        name: "Kheelan Kundalia",
-      },
-      {
-        name: "Aabha Sharma",
-      },
-      {
-        name: "Sidhhant Umesh Sancheti",
-      },
-      {
-        name: "Pranshul Garg",
-      },
-      {
-        name: "Aishani Srivastava",
+        name: "Olive Balda Jaime Pedro",
+        descripcion: "Presidente",
       },
     ]
   }

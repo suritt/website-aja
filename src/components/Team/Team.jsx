@@ -117,9 +117,9 @@ El segundo Centro de Día, ubicado en la localidad de Villa Soldati de la Ciudad
             <div className="col-md-8">
               <div className="section-heading">
                 {/* <span>Our Team</span> */}
-                <h2>Nuestro Equipo</h2>
+                <h2>Nuestros talleres</h2>
                 <p>
-
+                  Tenemos distintos talleres que se adaptan ......
                 </p>
               </div>
             </div>
@@ -150,10 +150,16 @@ El segundo Centro de Día, ubicado en la localidad de Villa Soldati de la Ciudad
                 <div className="w-100 text-center mt-4 mb-4">
                   <h4>{list.designation}</h4>
                 </div>
-                <div className="col-12 student-list">
+                <div className="col-12 student-list justify-content-center align-items-center">
                   <ul>
                     {list.name_list.map((student,j) => (
-                      <li key={j}>{student.name}</li>
+                      <li key={j}>
+                        <div>
+                        <h4>{student.name}</h4>
+                        <p>{student.descripcion || " ----"} </p>
+                        </div>
+                      </li>
+
                     ))}
                   </ul>
                 </div>

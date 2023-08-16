@@ -4,32 +4,26 @@ import "./Activities.css";
 
 const talks_event = [
   {
-    id: "charity-work",
-    title: "Actividades Extraprogramaticas",
-    image: "/images/stress-management-talk.png",
-    text: `Stress Management Talk by CWPH and Placement Cell on Sept 5, 2019. `,
-    details: `The first talk of the center was held in the month of September along with Training and Placement cell. The speaker was Dr. Rashmi who had been quite active in de-addiction campaigns of Brahma Kumari organization. Dr. Rashmi talked about the harmful effects of addiction. She gave various techniques to tackle stress and told the benefits of meditation to overcome anxiety. She conducted a practical session according to Raja Yoga meditation. The talk was attended by large number students as well as staff and faculty members.`,
+    id: "charity-work1",
+    title: "Extraprogramaticas",
+    image: "https://www.nuevazona.com.ar/wp-content/uploads/2017/03/Comenz%C3%B3-el-transporte-escolar-para-alumnos-de-la-escuela-integral-N%C2%BA-16-1.jpg",
+    text: `- Viajes recreativos\n
+    - Campamentos
+    - Eventos deportivos
+    - Eventos de Integración
+    `,
   },
   {
-    id: "charity-work",
-    title: "Actividades en la familia",
-    image: "/images/healthy-relationship-talk.jpg",
-    text: `A talk on healthy relationships by Mr. Charlie Hoggs (National Coordinator of Brahma Kumaris, Australia) on 21 Oct, 2019.`,
-    details: `The next talk was organized on “Creating Healthy Relationships” by Mr. Charlie Hogg, National Coordinator of Brahma Kumaris, Australia on 21 October, 2019. He emphasized on loving others and connecting with the supreme self (God) as a remedy to create happy and better relationships with others. He also asserted on the virtues of honesty, humility, love & forgiveness to develop respect for ourselves and others.`,
+    id: "charity-work2",
+    title: "En familia",
+    image: "https://prensa.gob.gt/sites/default/files/styles/imagen_/public/2022-03/WhatsApp%20Image%202022-03-09%20at%209.53.58%20AM.jpeg?itok=a37zC_60",
+    text: `Talleres para padres y para hermanos: es modalidad de la institución desde hace cuatro años la implementación de talleres para padres y para hermanos de los concurrentes a fin de abordar problemáticas específicas que sean demandadas en estos espacios. Se propone como otro canal de comunicación y reflexión del trabajo anual que se va llevando adelante con los concurrentes.`,
   },
   {
-    id: "charity-work",
+    id: "charity-work3",
     title: "Talleres",
-    image: "/images/art-of-living-talk.jpg",
-    text: `A talk on Art of the living by YogiJi Shiksha Niketan on Jan 16, 2020.`,
-    details: `This session on “Art of Living: Tap, Seva, Dhyana” was conducted by Mr. Jitendra Awasthi from Yogiji Shiksha Niketan, Lucknow. This session was organized by CWPH along with Sankalp, a club from Student's Gymkhana. A good number of students, (around  30) attended the session.`,
-  },
-  {
-    id: "charity-work",
-    title: "Proyectos",
-    image: "/images/art-of-living-talk.jpg",
-    text: `A talk on Art of the living by YogiJi Shiksha Niketan on Jan 16, 2020.`,
-    details: `This session on “Art of Living: Tap, Seva, Dhyana” was conducted by Mr. Jitendra Awasthi from Yogiji Shiksha Niketan, Lucknow. This session was organized by CWPH along with Sankalp, a club from Student's Gymkhana. A good number of students, (around  30) attended the session.`,
+    image: "https://totenart.com/noticias/wp-content/uploads/2020/02/oleo-noticias-totenart.jpg",
+    text: `Texto breve de los tallers`,
   },
 ];
 
@@ -145,9 +139,11 @@ function Activities() {
                 >
                   <img className="act-image" src={event.image} />
                   <h4 style={style2}>{event.title}</h4>
+                  {/*
                   <p style={{ textAlign: "justify" }} className="activitiesPara">
                     {event.text}
                   </p>
+                   */}
                 </div>
               </div>
             ))}

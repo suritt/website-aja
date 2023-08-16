@@ -52,9 +52,9 @@ function ActivityDetails() {
                 <span style={{color:"#00bcd4"}}>Event Details</span>
                 <h2 style={style2}>{event_details.title}</h2>
               </div>
-              {/* <div className='event-text'>
+               <div className='event-text'>
                 <p>{event_details.text}</p>
-              </div> */}
+              </div> 
               <div>
                 <p>{event_details.details}</p>
               </div>

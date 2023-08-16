@@ -27,34 +27,36 @@ const News = () => {
       </div>
       <div className="about-us">
         <div className="container">
-          <div className="row w-100 mx-auto">
-            <div className="col-md-6 order-1 order-2">
-              <div className="section-heading">
-                <span>About Our College</span>
-                <h2>Sobre Nosotro</h2>
-                <p>
-                  Located in Jaipur,{" "}
-                  <b>The LNM Institute of Information Technology</b> was founded as a
-                  public-private partnership joint venture between the Government of
-                  Rajasthan and Lakshmi and Usha Mittal Foundation. Accredited with
-                  an <b>&apos;A&apos;</b> Grade by NAAC, and recognised by the UGC as
-                  a deemed-to-be university under Section 3 of the UGC Act, 1956, all
-                  the engineering courses offered by the institute are recognised by
-                  ACITE. The institute offers merit-based admission to 2 UG, 1
-                  Integrated, 2 PG and 1 doctorate programme (BTech, BTech (Hons),
-                  BTech-MTech Integrated, MTechj, MS by Research, MSc and PhD) across
-                  six departments and 26 specialisations, namely Computer Science and
-                  Engineering, Electronics and Communication Engineering,
-                  Mechanical-Mechatronics Engineering, Mathematics, Physics and
-                  Humanities and Social Sciences.
-                </p>
-              </div>
-            </div>
+            <div className="row w-100 mx-auto">
+                <div className="col-md-6 order-1 order-2">
+                    <div className="section-heading">
+                        <span>About Our College</span>
+                        <h2>Sobre Nosotro</h2>
+                        <p>
+                        Located in Jaipur,{" "}
+                        <b>The LNM Institute of Information Technology</b> was founded as a
+                        public-private partnership joint venture between the Government of
+                        Rajasthan and Lakshmi and Usha Mittal Foundation. Accredited with
+                        an <b>&apos;A&apos;</b> Grade by NAAC, and recognised by the UGC as
+                        a deemed-to-be university under Section 3 of the UGC Act, 1956, all
+                        the engineering courses offered by the institute are recognised by
+                        ACITE. The institute offers merit-based admission to 2 UG, 1
+                        Integrated, 2 PG and 1 doctorate programme (BTech, BTech (Hons),
+                        BTech-MTech Integrated, MTechj, MS by Research, MSc and PhD) across
+                        six departments and 26 specialisations, namely Computer Science and
+                        Engineering, Electronics and Communication Engineering,
+                        Mechanical-Mechatronics Engineering, Mathematics, Physics and
+                        Humanities and Social Sciences.
+                        </p>
+                    </div>
+                </div>
+
             <div className="col-md-6 d-flex order-2">
               <div className="image m-auto">
                 <img src="/images/lnmiit-drone-view.jpg" alt="" />
               </div>
             </div>
+
             <div className="col-md-6 d-flex order-md-3 order-4 mt-5">
               <div className="image m-auto">
                 <img
@@ -63,6 +65,7 @@ const News = () => {
                 />
               </div>
             </div>
+
             <div className="col-md-6 order-md-4 order-3 mt-5">
               <div className="text">
                 {/* <h2 style={style2}>About The CWPH</h2> */}
@@ -75,6 +78,7 @@ const News = () => {
                 </p>
               </div>
             </div>
+
             <div className="col-md-6 mt-5 order-5">
               <div className="section-heading">
                 <span>About us</span>
