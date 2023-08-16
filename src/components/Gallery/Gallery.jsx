@@ -1,32 +1,25 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useHistory } from "react-router-dom";
-import "./Activities.css";
+import "./Gallery.css";
 
 const talks_event = [
   {
     id: "charity-work",
-    title: "Actividades Extraprogramaticas",
+    title: "Stress Management",
     image: "/images/stress-management-talk.png",
     text: `Stress Management Talk by CWPH and Placement Cell on Sept 5, 2019. `,
     details: `The first talk of the center was held in the month of September along with Training and Placement cell. The speaker was Dr. Rashmi who had been quite active in de-addiction campaigns of Brahma Kumari organization. Dr. Rashmi talked about the harmful effects of addiction. She gave various techniques to tackle stress and told the benefits of meditation to overcome anxiety. She conducted a practical session according to Raja Yoga meditation. The talk was attended by large number students as well as staff and faculty members.`,
   },
   {
     id: "charity-work",
-    title: "Actividades en la familia",
+    title: "Creating Healthy Relationships",
     image: "/images/healthy-relationship-talk.jpg",
     text: `A talk on healthy relationships by Mr. Charlie Hoggs (National Coordinator of Brahma Kumaris, Australia) on 21 Oct, 2019.`,
     details: `The next talk was organized on “Creating Healthy Relationships” by Mr. Charlie Hogg, National Coordinator of Brahma Kumaris, Australia on 21 October, 2019. He emphasized on loving others and connecting with the supreme self (God) as a remedy to create happy and better relationships with others. He also asserted on the virtues of honesty, humility, love & forgiveness to develop respect for ourselves and others.`,
   },
   {
     id: "charity-work",
-    title: "Talleres",
-    image: "/images/art-of-living-talk.jpg",
-    text: `A talk on Art of the living by YogiJi Shiksha Niketan on Jan 16, 2020.`,
-    details: `This session on “Art of Living: Tap, Seva, Dhyana” was conducted by Mr. Jitendra Awasthi from Yogiji Shiksha Niketan, Lucknow. This session was organized by CWPH along with Sankalp, a club from Student's Gymkhana. A good number of students, (around  30) attended the session.`,
-  },
-  {
-    id: "charity-work",
-    title: "Proyectos",
+    title: "Art of Living: Tap, Seva, Dhyan",
     image: "/images/art-of-living-talk.jpg",
     text: `A talk on Art of the living by YogiJi Shiksha Niketan on Jan 16, 2020.`,
     details: `This session on “Art of Living: Tap, Seva, Dhyana” was conducted by Mr. Jitendra Awasthi from Yogiji Shiksha Niketan, Lucknow. This session was organized by CWPH along with Sankalp, a club from Student's Gymkhana. A good number of students, (around  30) attended the session.`,
@@ -92,7 +85,7 @@ const cwph_events = [
   },
 ]
 
-function Activities() {
+function Gallery() {
   const style = {
     color: "#000",
   };
@@ -107,12 +100,12 @@ function Activities() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 style={style}>Actividades</h1>
+              <h1 style={style}>Galería</h1>
               <p style={style}>
                 <a style={style} href="/">
                  
                 </a>{" "}
-                 <span style={style}>Activities</span>
+                 <span style={style}>Galeria</span>
               </p>
             </div>
           </div>
@@ -384,4 +377,4 @@ function Activities() {
   );
 }
 
-export default Activities;
+export default Gallery;

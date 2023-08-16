@@ -7,9 +7,14 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Us from "./components/ContactUs/ContactUs";
 import About from "./components/About/About";
+import Gallery from "./components/Gallery/Gallery";
 import Developers from "./components/Developers/Developers";
 import ActivityDetails from './components/Activity-Details/ActivityDetails'
 import ContactUs from "./components/ContactUs/ContactUs";
+import News from "./components/News/News";
+
+
+
 
 function App() {
   return (
@@ -21,9 +26,19 @@ function App() {
             <Route exact path="/">
               <HomePage />
             </Route>
+
+            <Route exact path="/gallery">
+              <Gallery />
+            </Route>
+
             <Route exact path="/activities">
               <Activities />
             </Route>
+
+            <Route exact path="/news">
+              <News/>
+            </Route>
+
             <Route exact path="/team">
               <Team />
             </Route>

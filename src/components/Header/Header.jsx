@@ -24,13 +24,17 @@ const Header = () => {
               <Nav.Link href="/" style={{ fontWeight: "bold" }}>
                 Institucional
               </Nav.Link>
-              <Nav.Link href="/team" style={{ fontWeight: "bold" }}>
+
+              <Nav.Link href="/activities" style={{ fontWeight: "bold" }}>
                 Actividades
               </Nav.Link>
-              <Nav.Link href="/about" style={{ fontWeight: "bold" }}>
+              <Nav.Link href="/news" style={{ fontWeight: "bold" }}>
                 Novedades
               </Nav.Link>
-              <Nav.Link href="/activities" style={{ fontWeight: "bold" }}>
+              <Nav.Link href="/about" style={{ fontWeight: "bold" }}>
+                Acerca de 
+              </Nav.Link>
+              <Nav.Link href="/gallery" style={{ fontWeight: "bold" }}>
                 Galeria
               </Nav.Link>
               <Nav.Link href="/contact" style={{ fontWeight: "bold" }}>

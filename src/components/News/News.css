@@ -1,0 +1,28 @@
+.about-image{
+    background-image: url("./../../../public/images/nuevas/taller_1.jpeg");
+  }
+  
+  .about-us {
+    padding: 90px 0;
+  }
+  
+  .image {
+    width: 100%;
+  }
+  
+  .image img {
+    width: 100%;
+    box-shadow: 1px 9px 12px 0px #b3b1b1;
+    border-radius: 8px;
+  }
+  
+  .text p {
+    font-size: 15px;
+  }
+  
+  .about-list-item {
+    margin-bottom: 0px;
+  }
+  
+  
+  
