@@ -11,19 +11,14 @@ const ContactUs = () => {
     <div>
       {/* <Header /> */}
       <div className="page-heading header-text contact-image">
+        
+        {/*
         <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <h1 style={style}>Contactanos</h1>
-              <p style={style}>
-      
-                 <span style={style}></span>
-              </p>
-            </div>
-          </div>
+         
         </div>
+        */}
       </div>
-
+    
       <div className="contact-us">
         <div className="container">
           <div className="row">
@@ -127,8 +122,8 @@ const ContactUs = () => {
       
       
       <div className="row">
-
         <div className="col-md-6 col-sm-12">
+            <h3>Sede central:</h3>
             <div className="map" id="map-soldati">
             {/* How to change your own map point
               1. Go to Google Maps
@@ -150,14 +145,8 @@ const ContactUs = () => {
 
         
         <div className="col-md-6 col-sm-12">
-
+          <h3>Sede Munro:</h3>
           <div className="map" id="map-munro">
-            {/* How to change your own map point
-              1. Go to Google Maps
-              2. Click on your location point
-              3. Click "Share" and choose "Embed map" tab
-              4. Copy only URL and paste it within the src="" field below */}
-
             <iframe
               title="GoogleMapLocation"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210369.5962401594!2d-58.810672760009766!3d-34.527596067111915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0c57ada77b3%3A0xccbeb46be6a60f9d!2sAsociaci%C3%B3n%20Juvenil%20Araucana!5e0!3m2!1ses-419!2sar!4v1691699599266!5m2!1ses-419!2sar"
