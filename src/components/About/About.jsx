@@ -30,23 +30,11 @@ const About = () => {
           <div className="row w-100 mx-auto">
             <div className="col-md-6 order-1 order-2">
               <div className="section-heading">
-                <span>About Our College</span>
-                <h2>Sobre Nosotro</h2>
+                <span></span>
+                <h2>Sobre Nosotros</h2>
                 <p>
-                  Located in Jaipur,{" "}
-                  <b>The LNM Institute of Information Technology</b> was founded as a
-                  public-private partnership joint venture between the Government of
-                  Rajasthan and Lakshmi and Usha Mittal Foundation. Accredited with
-                  an <b>&apos;A&apos;</b> Grade by NAAC, and recognised by the UGC as
-                  a deemed-to-be university under Section 3 of the UGC Act, 1956, all
-                  the engineering courses offered by the institute are recognised by
-                  ACITE. The institute offers merit-based admission to 2 UG, 1
-                  Integrated, 2 PG and 1 doctorate programme (BTech, BTech (Hons),
-                  BTech-MTech Integrated, MTechj, MS by Research, MSc and PhD) across
-                  six departments and 26 specialisations, namely Computer Science and
-                  Engineering, Electronics and Communication Engineering,
-                  Mechanical-Mechatronics Engineering, Mathematics, Physics and
-                  Humanities and Social Sciences.
+                A.J.A inició su vida en Ramsay 2250, Capital Federal, en un sector prestado por la Dirección Nacional de Rehabilitación. Luego de varias gestiones realizadas con el afán de obtener un lugar propio, en 1980 la Comuna de Vicente López otorga primero en comodato y luego como donación una propiedad en la localidad de Munro. En esta sede se desarrollaron actividades no sólo deportivas sino también terapéuticas. Este proyecto motivó el ingreso de varios concurrentes de distintas Obras Sociales como el I.N.S.S.J.Y.P. Gracias al trabajo mancomunado de la Comisión Directiva y el plantel profesional A.J.A logró ser reconocida como Entidad Modelo Categoría A.
+
                 </p>
               </div>
             </div>
@@ -67,11 +55,7 @@ const About = () => {
               <div className="text">
                 {/* <h2 style={style2}>About The CWPH</h2> */}
                 <p>
-                  Established in 2002, the LNMIIT Jaipur has been ranked second in
-                  Rajasthan among private Engineering institutes by Education World
-                  (2021), ranked third in private Engineering colleges with best
-                  placements by India Today (2021) and ranked fifth in private
-                  Engineering colleges (North Zone) by The Week (2020).{" "}
+                 
                 </p>
               </div>
             </div>
@@ -92,7 +76,10 @@ const About = () => {
                   concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, 
                   radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.               
                 
-                </p>
+                  </p>
+               
+
+
 
               </div>
             </div>
@@ -136,26 +123,35 @@ const About = () => {
                 <h2 style={style2}>Objectives</h2>
                 <br />
                 <p>
-                  <h5 style={style2}>1. Develop Healthy Body</h5>
+                  <h5 style={style2}>1 Centro de día</h5>
                   <ul>
                     <li className="about-list-item">
-                      Be highly energetic and enthusiastic for any task.
+                    Obtener la máxima independencia personal
                     </li>
                     <li className="about-list-item">
-                      Understand the role of proper nutrition in maintaining good
-                      health.
+                    Lograr la adquisición y adecuación de hábitos sociales para su mejor integración social
                     </li>
                     <li className="about-list-item">
-                      Understand the role of physical exercise, yoga, and other
-                      techniques in maintaining good health.
+                    Mejorar la integración a su medio familiar de pertenencia.
                     </li>
                     <li className="about-list-item">
-                      Beware of the serious detrimental effects of smoking, drinking
-                      alcoholand other banned substances.{" "}
+                    Evitar el aislamiento en el seno familiar e institucional.{" "}
+                    </li>
+                    <li className="about-list-item">
+                    Desarrollar actividades ocupacionales
+                    </li>
+                    <li className="about-list-item">
+                    Apoyar y orientar a la Familia
+                    </li>
+                    <li className="about-list-item">
+                    Desarrollar programas de acción comunitaria con la participación de concurrentes
+                    </li>
+                    <li className="about-list-item">
+                    Mantener y/o mejorar conductas de autovalimento
                     </li>
                   </ul>
                   <br />
-                  <h5 style={style2}>2. Develop Sound Mind</h5>
+                  <h5 style={style2}>2 Hogar</h5>
                   <ul>
                     <li className="about-list-item">
                       Develop strong mind and will power to undertake any challenge.
