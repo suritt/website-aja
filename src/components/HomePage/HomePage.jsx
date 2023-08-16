@@ -67,14 +67,17 @@ const HomePage = () => {
                   <h2> ¿Que hacemos ? </h2>
                   
                   <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, sapiente excepturi earum maxime corporis sunt aliquam ipsum mollitia quam, explicabo architecto ex ab similique sint magni illo consectetur. Consequuntur, debitis.
+                  El abordaje institucional se fundamenta en considerar a la persona con discapacidad intelectual como sujeto capaz de elegir, decidir y ser protagonista de su propia vida en la medida de sus posibilidades.
+
+Objetivos generales:
+ Lograr la máxima independencia personal y autodeterminación de los concurrentes.
+
+Favorecer una mayor integración social y una mejor calidad de vida.
+ Desarrollar actividades ocupacionales organizadas de acuerdo a los intereses y posibilidades, que permitan el despliegue subjetivo de cada concurrente.
+
                   </p>
                   
-                  <br></br>
                   
-                  <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, sapiente excepturi earum maxime corporis sunt aliquam ipsum mollitia quam, explicabo architecto ex ab similique sint magni illo consectetur. Consequuntur, debitis.
-                  </p>
                   
                 </div>
 
@@ -115,63 +118,56 @@ const HomePage = () => {
                 <h2 style={style2}>Nuestra mision y objetivos</h2>
                 <br />
                 <p>
-                  <h5 style={style2}>1. Develop Healthy Body</h5>
-                  <ul>
+                <h5 style={style2}>Centro de día</h5> 
+                <ul>
                     <li className="about-list-item">
-                      Be highly energetic and enthusiastic for any task.
+                    Obtener la máxima independencia personal
                     </li>
                     <li className="about-list-item">
-                      Understand the role of proper nutrition in maintaining good
-                      health.
+                    Lograr la adquisición y adecuación de hábitos sociales para su mejor integración social
                     </li>
                     <li className="about-list-item">
-                      Understand the role of physical exercise, yoga, and other
-                      techniques in maintaining good health.
+                    Mejorar la integración a su medio familiar de pertenencia.
                     </li>
                     <li className="about-list-item">
-                      Beware of the serious detrimental effects of smoking, drinking
-                      alcoholand other banned substances.{" "}
-                    </li>
-                  </ul>
-                  <br />
-                  <h5 style={style2}>2. Develop Sound Mind</h5>
-                  <ul>
-                    <li className="about-list-item">
-                      Develop strong mind and will power to undertake any challenge.
+                    Evitar el aislamiento en el seno familiar e institucional.{" "}
                     </li>
                     <li className="about-list-item">
-                      Develop right attitude to face difficulties and failures in
-                      life.
+                    Desarrollar actividades ocupacionales
                     </li>
                     <li className="about-list-item">
-                      Develop good concentration, memory, and mental activity in
-                      students.
+                    Apoyar y orientar a la Familia
                     </li>
                     <li className="about-list-item">
-                      Be Happy, contented, and cheerful in every situation.{" "}
+                    Desarrollar programas de acción comunitaria con la participación de concurrentes
+                    </li>
+                    <li className="about-list-item">
+                    Mantener y/o mejorar conductas de autovalimento
                     </li>
                   </ul>
+                    
                   <br />
-                  <h5 style={style2}>3. Infuse Moral Values</h5>
-                  <ul>
-                    <li className="about-list-item">Be honest with our own self.</li>
-                    <li className="about-list-item">
-                      Be responsible and sincere in performing one’s duty.
-                    </li>
-                    <li className="about-list-item">
-                      Develop respect for others and their opinions.
-                    </li>
-                    <li className="about-list-item">
-                      Develop patience, perseverance, humility and unselfishness.{" "}
-                    </li>
-                  </ul>
-                  <br />
-                  <h5 style={style2}>4. Do Good to others</h5>
+                  <h5 style={style2}> Hogar </h5>
                   <ul>
                     <li className="about-list-item">
-                      Serve the society/needy and take part in philanthropic
-                      activities whenever possible.
+                    Promover la construcción y el ejercicio de la autonomía, la autodeterminación y las habilidades sociales
                     </li>
+                    <li className="about-list-item">
+                    Impulsar el pleno goce del entorno y los recursos a su disposición
+                    </li>
+                    <li className="about-list-item">
+                    Asegurar la calidad de vida en condiciones de igualdad
+                    </li>
+                    <li className="about-list-item">
+                    Respetar las libertades individuales fundamentales{" "}
+                    </li> 
+                    <li className="about-list-item">
+                    Brindar una vivienda digna consolidando el artículo 19 de la Convención Internacional sobre los Derechos de las Personas con Discapacidad
+                     (Ley 26.378).
+
+                   </li>
+
+                  
                   </ul>
                 </p>
               </div>
