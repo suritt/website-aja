@@ -142,23 +142,15 @@ const HomePage = () => {
                 {/* <span>About us</span> */}
                 <h2 style={style2}>Nuestro compromiso</h2>
                 <p>
-                  The Center for Wellness and Positive Health aims to inculcate good
-                  habits thereby infusing positive and powerful thoughts among our
-                  students and others, so that they could develop a healthy body and
-                  a sound mind necessary for a complete all round holistic and moral
-                  development of their personality.
+                El abordaje institucional se fundamenta en considerar a la persona con discapacidad intelectual como sujeto capaz de elegir, decidir y ser protagonista de su propia vida en la medida de sus posibilidades.
                 </p>
                 <br />
                 <p>
-                  Our Vision is to create a society of happy, contented and
-                  productive people
+                 
                 </p>
                 <br />
                 <p>
-                  It is our mission to create a healthy interactive platform which
-                  will infuse positivity and contentment among students, faculty and
-                  staff in campus as well as outside leading to enthusiasm,
-                  creativity and growth
+                  
                 </p>
               </div>
             </div>

@@ -89,29 +89,26 @@ export const studentList = [
       {
         name: "Olive Balda Jaime Pedro",
         descripcion: "Presidente",
+    
       },
       {
-        name: "Rollino Ruben",
-        descripcion: "Vicepresidente",
+        name: "Lidia E. Crociati de la Vega",
+        descripcion: "vicepresidente",
       },
       {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
-      },
-      {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "Ruben Corrales",
+        descripcion: "Secretario",
       },   {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "Juana Esther Gonzalez de Velesquen",
+        descripcion: "Pro Secretaria",
       },
       {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "Marta Mannarino de Cabral",
+        descripcion: "Tesorero",
       },
       {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "Margarita Sofía Luna de Ruiz",
+        descripcion: "Pro Tesorero",
       },
     ]
   },
@@ -119,24 +116,28 @@ export const studentList = [
     designation: "Comisión revisora de cuentas",
     name_list: [
       {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "Hernan Martinéz Nuñez",
+        descripcion: "Revisores de cuentas titulares",
       },
       {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "Jose Filloy",
+        descripcion: "Revisores de cuentas titulares",
       },
       {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "María Angelica Lemma de Benitez",
+        descripcion: "Revisores de cuentas suplentes",
       },
       {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "Nelida Solares",
+        descripcion: "Revisores de cuentas suplentes",
       },
       {
-        name: "Olive Balda Jaime Pedro",
-        descripcion: "Presidente",
+        name: "Karina Paz",
+        descripcion: "Directora sede capital",
+      },
+      {
+        name: "Patricia Checo",
+        descripcion: "Directora sede Munro",
       },
     ]
   }

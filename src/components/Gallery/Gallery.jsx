@@ -29,7 +29,7 @@ const talks_event = [
 const lockdown_event = [
   {
     id: "charity-work",
-    title: "Poster Making Competition",
+    title: "Salida a Puerto Madero",
     image: "/images/cwph-poster.png",
     text: ``,
     details: `The center decided to fix posters, with inspirational quotes, on the walls of hostels and messes. It decided to include each and every student of the institute in poster designing. Since students were at their homes due to the lockdown, this task would help them in engaging in some fruitful activity. Thus, a poster competition was announced by the center for students. The top 10 entries were awarded a cash prize of Rs 500 each. `,

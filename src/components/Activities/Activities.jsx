@@ -17,7 +17,7 @@ const talks_event = [
   {
     id: "charity-work2",
     title: "En familia",
-    image: "https://prensa.gob.gt/sites/default/files/styles/imagen_/public/2022-03/WhatsApp%20Image%202022-03-09%20at%209.53.58%20AM.jpeg?itok=a37zC_60",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQRn9gdTag-w6bvowcFCHl0Xfjf0SMYwpBw&usqp=CAU",
     text: `Talleres para padres y para hermanos: es modalidad de la institución desde hace cuatro años la implementación de talleres para padres y para hermanos de los concurrentes a fin de abordar problemáticas específicas que sean demandadas en estos espacios. Se propone como otro canal de comunicación y reflexión del trabajo anual que se va llevando adelante con los concurrentes.`,
   },
   {
@@ -168,7 +168,7 @@ function Activities() {
               </div>
             ))}
             <div className="col-md-12" style={{ marginTop: "10px" }}>
-              <h3 style={style2}>Lockdown Events</h3>
+              <h3 style={style2}>Eventos</h3>
             </div>
             {lockdown_event.map((event, i) => (
               <div className="col-lg-4 col-md-6 col-12" key={i}>

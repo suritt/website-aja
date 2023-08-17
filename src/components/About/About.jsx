@@ -17,7 +17,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 style={style}>About Us</h1>
+              <h1 style={style}>about</h1>
               <p style={style}>
                 <a style={style} href="/">
                   Home
@@ -42,16 +42,13 @@ const About = () => {
               <div className="section-heading">
                 {/* <span>About us</span> */}
                 <h2 style={style2}>HOGAR</h2>
+              
                 <p>
-                  Texto para el HOGAR...
-                </p>
-                <br />
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat perferendis nisi iusto exercitationem deserunt magni, dignissimos modi voluptatum quam, commodi ipsum delectus unde iste. Necessitatibus laboriosam sit optio cum vero?
-                </p>
-                <br />
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat perferendis nisi iusto exercitationem deserunt magni, dignissimos modi voluptatum quam, commodi ipsum delectus unde iste. Necessitatibus laboriosam sit optio cum vero?
+                
+                En estos momentos nos encontramos ante el desafío de la próxima apertura del Hogar para todas aquellas personas con discapacidad intelectual que no cuenten con grupo familiar propio o familias continentes, o para aquellos concurrentes que asisten a nuestros centros y que en el futuro estén proyectando la posibilidad de vivir en el mismo. Para la población en general se tenderá a respetar su individualidad y privacidad, tendiendo a desarrollar al máximo su autonomía y trabajando hacia un abordaje en donde los residentes del hogar ejerciten su autodeterminación, posibilitándoles los apoyos necesarios para lograr el objetivo anteriormente mencionado.
+
+                
+
                 </p>
               </div>
             </div>
@@ -71,15 +68,16 @@ const About = () => {
                 {/* <span>About us</span> */}
                 <h2 style={style2}>CENTRO DE DIA</h2>
                 <p>
-                  Texto hablando del centro de dia.
+                  
                 </p>
                 <br />
                 <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus totam atque animi ducimus nobis maxime. Tempore assumenda reiciendis, dolorem ad aliquam, quod at quisquam veritatis ipsa odio suscipit architecto pariatur.
+                En el marco de nuestra Institución, entendemos por Centro de día al servicio que tiene por objeto posibilitar a la persona con discapacidad el más adecuado desempeño en la vida cotidiana, mediante la implementación de actividades tendientes a alcanzar el máximo desarrollo posible de sus potencialidades. Fundamentalmente el objetivo es lograr el mayor nivel de independencia posible, brindando la contención que el caso requiere.
                 </p>
                 <br />
                 <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus totam atque animi ducimus nobis maxime. Tempore assumenda reiciendis, dolorem ad aliquam, quod at quisquam veritatis ipsa odio suscipit architecto pariatur.
+                A través de las actividades que se desarrollan se procura alcanzar los siguientes objetivos específicos: 1- Lograr la máxima independencia personal 2- Adquirir hábitos sociales tendientes a la integración social 3- Desarrollar actividades ocupacionales seleccionadas y organizadas de acuerdo con las posibilidades, y especialmente que respondan al deseo que convoca a cada concurrente en particular. 4- Implementar actividades tendientes a lograr la participación y la implicación singular de los concurrentes en programas de acción acorde con sus posibilidades, que le permitan su despliegue subjetivo. Nuestro Centro de Día procura fundamentalmente brindar contención a personas que por el nivel de discapacidad no estén en condiciones de beneficiarse de programas de educación formal y se trata en todos los casos de estimular intereses en los beneficiarios para alcanzar el mayor nivel de calidad de vida posible.
+
                 </p>
               </div>
             </div>
@@ -169,25 +167,18 @@ const About = () => {
             <div className="col-md-6 order-md-8 order-7 mt-5">
               <div className="section-heading">
                 {/* <span>About us</span> */}
-                <h2 style={style2}>Vision Mission Statement</h2>
+                <h2 style={style2}></h2>
                 <p>
-                  The Center for Wellness and Positive Health aims to inculcate good
-                  habits thereby infusing positive and powerful thoughts among our
-                  students and others, so that they could develop a healthy body and
-                  a sound mind necessary for a complete all round holistic and moral
-                  development of their personality.
+             
                 </p>
                 <br />
                 <p>
-                  Our Vision is to create a society of happy, contented and
-                  productive people
+             
                 </p>
                 <br />
                 <p>
-                  It is our mission to create a healthy interactive platform which
-                  will infuse positivity and contentment among students, faculty and
-                  staff in campus as well as outside leading to enthusiasm,
-                  creativity and growth
+                Nuestros logros son fruto del esfuerzo y del trabajo de muchos padres que han pasado a lo largo de estos años, que han colaborado y continúan trabajando, aportando su tiempo y dedicación, al igual que de cada una de las personas que prestan servicio en nuestra entidad.
+
                 </p>
               </div>
             </div>

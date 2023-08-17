@@ -31,22 +31,11 @@ const News = () => {
                 <div className="col-md-6 order-1 order-2">
                     <div className="section-heading">
                         <span>About Our College</span>
-                        <h2>Sobre Nosotro</h2>
+                        <h2>Sobre Nosotros</h2>
                         <p>
-                        Located in Jaipur,{" "}
-                        <b>The LNM Institute of Information Technology</b> was founded as a
-                        public-private partnership joint venture between the Government of
-                        Rajasthan and Lakshmi and Usha Mittal Foundation. Accredited with
-                        an <b>&apos;A&apos;</b> Grade by NAAC, and recognised by the UGC as
-                        a deemed-to-be university under Section 3 of the UGC Act, 1956, all
-                        the engineering courses offered by the institute are recognised by
-                        ACITE. The institute offers merit-based admission to 2 UG, 1
-                        Integrated, 2 PG and 1 doctorate programme (BTech, BTech (Hons),
-                        BTech-MTech Integrated, MTechj, MS by Research, MSc and PhD) across
-                        six departments and 26 specialisations, namely Computer Science and
-                        Engineering, Electronics and Communication Engineering,
-                        Mechanical-Mechatronics Engineering, Mathematics, Physics and
-                        Humanities and Social Sciences.
+                        La Asociación Juvenil Araucana es una Entidad Civil sin Fines de Lucro, creada el 26 de julio de 1978, por un grupo de padres de personas con discapacidad intelectual, cuyos objetivos fueron Crear, Fomentar y Desarrollar Centros de Actividades Deportivas, Culturales, Sociales, Laborales y Habitacionales para el desarrollo integral de las personas con discapacidad intelectual.
+La misma está dirigida por una Comisión Directiva integrada por catorce padres que aportan su esfuerzo y tiempo ad-honorem.
+
                         </p>
                     </div>
                 </div>
@@ -70,11 +59,8 @@ const News = () => {
               <div className="text">
                 {/* <h2 style={style2}>About The CWPH</h2> */}
                 <p>
-                  Established in 2002, the LNMIIT Jaipur has been ranked second in
-                  Rajasthan among private Engineering institutes by Education World
-                  (2021), ranked third in private Engineering colleges with best
-                  placements by India Today (2021) and ranked fifth in private
-                  Engineering colleges (North Zone) by The Week (2020).{" "}
+                A.J.A inició su vida en Ramsay 2250, Capital Federal, en un sector prestado por la Dirección Nacional de Rehabilitación. Luego de varias gestiones realizadas con el afán de obtener un lugar propio, en 1980 la Comuna de Vicente López otorga primero en comodato y luego como donación una propiedad en la localidad de Munro. En esta sede se desarrollaron actividades no sólo deportivas sino también terapéuticas. Este proyecto motivó el ingreso de varios concurrentes de distintas Obras Sociales como el I.N.S.S.J.Y.P. Gracias al trabajo mancomunado de la Comisión Directiva y el plantel profesional A.J.A logró ser reconocida como Entidad Modelo Categoría A.
+
                 </p>
               </div>
             </div>
@@ -113,25 +99,22 @@ const News = () => {
             <div className="col-md-6 order-md-8 order-7 mt-5">
               <div className="section-heading">
                 {/* <span>About us</span> */}
-                <h2 style={style2}>Vision Mission Statement</h2>
+                <h2 style={style2}></h2>
                 <p>
-                  The Center for Wellness and Positive Health aims to inculcate good
-                  habits thereby infusing positive and powerful thoughts among our
-                  students and others, so that they could develop a healthy body and
-                  a sound mind necessary for a complete all round holistic and moral
-                  development of their personality.
+                En Dicha sede próximamente se inaugurará un hogar de 1000m2 con capacidad para 45 personas. Con la apertura del mismo pretendemos brindar un servicio integral destinado a satisfacer necesidades básicas, recreación y atención especializada para nuestros concurrentes sin grupo familiar propio o continente.
+En 1996 a raíz del aumento de nuestra población se decidió desdoblar la actividad, funcionando ambas sedes simultáneamente, realizándose en una y otra las mismas actividades.
+Nuestros logros son fruto del esfuerzo y del trabajo de muchos padres que han pasado a lo largo de estos años, que han colaborado y continúan trabajando, aportando su tiempo y dedicación, al igual que de cada una de las personas que prestan servicio en nuestra entidad.
+
                 </p>
                 <br />
                 <p>
-                  Our Vision is to create a society of happy, contented and
-                  productive people
+               
+
+
                 </p>
                 <br />
                 <p>
-                  It is our mission to create a healthy interactive platform which
-                  will infuse positivity and contentment among students, faculty and
-                  staff in campus as well as outside leading to enthusiasm,
-                  creativity and growth
+                  
                 </p>
               </div>
             </div>
@@ -219,47 +202,25 @@ const News = () => {
             </div>
             <div className="col-md-6 order-md-12 order-11  mt-5">
               <div className="text">
-                <h2 style={style2}>Our Future Plan</h2>
+                <h2 style={style2}></h2>
                 <br />
                 <p>
                   <ul>
                     <li className="about-list-item">
-                      Organizing more workshops on meditation as well as on balancing mind, body and spirit to bring an all 
-                      round holistic development of an individual.
+                    El abordaje institucional se fundamenta en considerar a la persona con discapacidad intelectual como sujeto capaz de elegir, decidir y ser protagonista de su propia vida en la medida de sus posibilidades.
+
+
                     </li>
                     <li className="about-list-item">
-                      Organize competitions like Healthy Food competition in 
-                      LNMIIT community and outside.
+                    Favorecer una mayor integración social y una mejor calidad de vida.
+
                     </li>
                     <li className="about-list-item">
-                      Inspire student clubs to organize functions and competitions 
-                      of social importance.
+                    Desarrollar actividades ocupacionales organizadas de acuerdo a los intereses y posibilidades, que permitan el despliegue subjetivo de cada concurrente.
                     </li>
-                    <li className="about-list-item">
-                      Start some healthy shops of juices and nutritious foods 
-                      in the campus.
-                    </li>
-                    <li className="about-list-item">
-                      Start some medical service activities in nearby villages.
-                    </li>
-                    <li className="about-list-item">
-                      Device some techniques to help street dwellers in severe winter.
-                    </li>
-                    <li className="about-list-item">
-                      Start some useful courses from CWPH which will help our students 
-                      develop healthy body and sound mind
-                    </li>
-                    <li className="about-list-item">
-                      Engage students in more societal work so that moral values are 
-                      inculcated into their character.
-                    </li>
-                    <li className="about-list-item">
-                    Construction of a Physical building for Center for Wellness and 
-                    Positive Health: It will have a well ventilated room for meditation, 
-                    a small seminar room for discussion as well as for online viewing 
-                    of YouTube videos along with a small library which will contain 
-                    good books to elevate the mind and spirit of an individual.
-                    </li>
+                
+                   
+                    
                   </ul>
                   <br />
                 </p>
