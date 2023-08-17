@@ -1,5 +1,8 @@
 import { Tab, Tabs, Fade } from "react-bootstrap";
 import "./About.css";
+import equipoImg  from "./../../images/equipo_interdiciplinario.jpg";
+import CentroDiaImg  from "./../../images/munro.jpg";
+import imgHogar  from "./../../images/soldati.jpg";
 
 const About = () => {
   const style = {
@@ -25,6 +28,79 @@ const About = () => {
           </div>
         </div>
       </div>
+      
+
+      <div className="about-us">
+        <div className="container">
+          <div className="row w-100 mx-auto">
+            <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
+              <div className="image m-auto">
+              <img src={imgHogar} alt="Imagen centro Hogar" width={150} height={500} />
+              </div>
+            </div>
+            <div className="col-md-6 order-md-8 order-7 mt-5">
+              <div className="section-heading">
+                {/* <span>About us</span> */}
+                <h2 style={style2}>HOGAR</h2>
+                <p>
+                  Texto para el HOGAR...
+                </p>
+                <br />
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat perferendis nisi iusto exercitationem deserunt magni, dignissimos modi voluptatum quam, commodi ipsum delectus unde iste. Necessitatibus laboriosam sit optio cum vero?
+                </p>
+                <br />
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat perferendis nisi iusto exercitationem deserunt magni, dignissimos modi voluptatum quam, commodi ipsum delectus unde iste. Necessitatibus laboriosam sit optio cum vero?
+                </p>
+              </div>
+            </div>
+
+            </div>
+        </div>
+      </div>  
+
+
+      
+      <div className="about-us">
+        <div className="container">
+          <div className="row w-100 mx-auto">
+           
+            <div className="col-md-6 order-md-8 order-7 mt-5">
+              <div className="section-heading">
+                {/* <span>About us</span> */}
+                <h2 style={style2}>CENTRO DE DIA</h2>
+                <p>
+                  Texto hablando del centro de dia.
+                </p>
+                <br />
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus totam atque animi ducimus nobis maxime. Tempore assumenda reiciendis, dolorem ad aliquam, quod at quisquam veritatis ipsa odio suscipit architecto pariatur.
+                </p>
+                <br />
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus totam atque animi ducimus nobis maxime. Tempore assumenda reiciendis, dolorem ad aliquam, quod at quisquam veritatis ipsa odio suscipit architecto pariatur.
+                </p>
+              </div>
+            </div>
+
+
+
+            <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
+              <div className="image m-auto">
+                <img src={CentroDiaImg} alt="Imagen centro dia" width={200} height={300} />
+              </div>
+            </div>
+
+            </div>
+        </div>
+      </div>  
+
+
+
+
+
+
       <div className="about-us">
         <div className="container">
           <div className="row w-100 mx-auto">
@@ -78,9 +154,6 @@ const About = () => {
                 
                   </p>
                
-
-
-
               </div>
             </div>
             <div className="col-md-6 mt-5 d-flex order-6">
@@ -209,6 +282,10 @@ const About = () => {
                 />
               </div>
             </div>
+
+
+            {/* Equipo diciplinario */}
+            
             <div className="col-md-6 order-md-12 order-11  mt-5">
               <div className="text">
                 <h2 style={style2}>Our Future Plan</h2>
@@ -251,6 +328,77 @@ const About = () => {
                     a small seminar room for discussion as well as for online viewing 
                     of YouTube videos along with a small library which will contain 
                     good books to elevate the mind and spirit of an individual.
+                    </li>
+                  </ul>
+                  <br />
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-6 order-md-12 order-11  mt-5">
+              <div className="image m-auto">
+                <img src={equipoImg} alt="" />
+              </div>
+            </div>
+
+            <div className="col-md-6 order-md-12 order-11  mt-5">
+              <div className="text">
+                <h2 style={style2}>Equipo Interdiciplinario</h2>
+                <br />
+                <p>
+                  <ul>
+                    <li className="about-list-item">
+                      Médico psiquiatra
+                    </li>
+                    <li className="about-list-item">
+                      Psicólogos
+                    </li>
+                    <li className="about-list-item">
+                      Trabajadores Sociales
+                    </li>
+                    <li className="about-list-item">
+                      Trabajadores Sociales
+                    </li>
+                    <li className="about-list-item">
+                      Psicopedagogos
+                    </li>
+                    <li className="about-list-item">
+                      Lic. en Educación Especial
+                    </li>
+                    <li className="about-list-item">
+                      Fonoaudiólogos
+                    </li>
+                    <li className="about-list-item">
+                    Lic. en Comunicación
+                    </li>
+                    <li className="about-list-item">
+                    Nutricionistas
+                    </li>
+                    <li className="about-list-item">
+                      Terapistas Ocupacionales
+                    </li>
+                    <li className="about-list-item">
+                    Musicoterapeutas
+                    </li>
+                    <li className="about-list-item">
+                    Psicomotricistas
+                    </li>
+
+                    <li className="about-list-item">
+                    Sociólogos
+                    </li>
+                    <li className="about-list-item">
+                    Profesores en Educación Especial, Educación Física, Computacion y Teatro
+                    </li>
+
+                    <li className="about-list-item">
+                    Periodistas/locutores
+                    </li>
+                    <li className="about-list-item">
+                    Acompañantes Terapéuticos
+                    </li>
+                    <li className="about-list-item">
+                    Auxiliares
                     </li>
                   </ul>
                   <br />

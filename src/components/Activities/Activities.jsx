@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useHistory } from "react-router-dom";
 import "./Activities.css";
+import "./../HomePage/HomePage";
 
 const talks_event = [
   {
@@ -93,6 +94,25 @@ function Activities() {
   const style2 = {
     fontWeight: "bold",
   };
+
+
+    <div className="features-section">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="section-heading">
+                  <h2> ¿Que hacemos ? </h2>
+            <p>
+              En el año 2015 abre sus puertas el Hogar para personas con discapacidad intelectual con 1150 m2 construidos y capacidad para 45 personas. Con la apertura del mismo se cierra el ciclo del objetivo inicial buscado de ofrecer una solución habitacional estable y definitiva para nuestros concurrentes carentes de grupo familiar propio o continente.
+              Nuestros logros, son fruto del esfuerzo y del trabajo de muchos padres que durante muchos años
+              han estado colaborado, aportando su tiempo y dedicación, al igual que de cada una de las personas 
+              que prestan servicio en nuestra entidad.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
 
   const history = useHistory();
   return (

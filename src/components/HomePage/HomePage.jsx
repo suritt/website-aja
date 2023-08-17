@@ -1,9 +1,12 @@
 import "./HomePage.css";
 import "./../About/About.css";
+import "./../About/About.css";
 
 import WellnessCards from "./WellnessCards";
 import Quotes from "../Quotes/Quotes";
 import CountDownTimer from "../Timer/Timer";
+
+import compromisImg  from "./../../images/compromiso.jpg";
 
 const HomePage = () => {
   const style = {
@@ -24,26 +27,26 @@ const HomePage = () => {
                 className="header-text caption"
                 style={{ background: "transparent" }}>
 
+                {/* 
                 <h1 className="welcome">
                   Titulo o slogan
                 </h1>
-            
+               */}
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="services-section">
+
+      {/* */}
+      <div className="features-section">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="section-header">
-
-                <div className="section-heading-content">
-                  <h2> ¿Quiénes somos ? </h2>
-                  
-                  <p>
+              <div className="section-heading">
+                <h2> ¿Quiénes somos ? </h2>
+                <p>
                   Somos una Institución sin fines de lucro, fundada en 1978 por
                   un grupo de padres de personas con discapacidad intelectual,
                   cuyos objetivos son crear, fomentar, posibilitar a la persona con 
@@ -51,44 +54,38 @@ const HomePage = () => {
                   de la implementaron de actividades tendientes a alcanzar el
                   máximo desarrollo de sus potencialidades.
                   </p>
-                  
-                  <br></br>
-                  
+
                   <p>
                   En el año 2015 abre sus puertas el Hogar para personas con discapacidad intelectual con 1150 m2 construidos y capacidad para 45 personas. Con la apertura del mismo se cierra el ciclo del objetivo inicial buscado de ofrecer una solución habitacional estable y definitiva para nuestros concurrentes carentes de grupo familiar propio o continente.
                   Nuestros logros, son fruto del esfuerzo y del trabajo de muchos padres que durante muchos años
                   han estado colaborado, aportando su tiempo y dedicación, al igual que de cada una de las personas 
                   que prestan servicio en nuestra entidad.
                   </p>
-                  
-                </div>
-
-                <div className="section-heading-content ">
-                  <h2> ¿Que hacemos ? </h2>
-                  
-                  <p>
-                  El abordaje institucional se fundamenta en considerar a la persona con discapacidad intelectual como sujeto capaz de elegir, decidir y ser protagonista de su propia vida en la medida de sus posibilidades.
-
-Objetivos generales:
- Lograr la máxima independencia personal y autodeterminación de los concurrentes.
-
-Favorecer una mayor integración social y una mejor calidad de vida.
- Desarrollar actividades ocupacionales organizadas de acuerdo a los intereses y posibilidades, que permitan el despliegue subjetivo de cada concurrente.
-
-                  </p>
-                  
-                  
-                  
-                </div>
-
-                <div className="section-heading-image">
-                  <img src="/images/nuevas/Portada.jpg" alt="" />
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="features-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="section-heading">
+                <h2> ¿Que hacemos ? </h2>
+                <p>
+                  En el año 2015 abre sus puertas el Hogar para personas con discapacidad intelectual con 1150 m2 construidos y capacidad para 45 personas. Con la apertura del mismo se cierra el ciclo del objetivo inicial buscado de ofrecer una solución habitacional estable y definitiva para nuestros concurrentes carentes de grupo familiar propio o continente.
+                  Nuestros logros, son fruto del esfuerzo y del trabajo de muchos padres que durante muchos años
+                  han estado colaborado, aportando su tiempo y dedicación, al igual que de cada una de las personas 
+                  que prestan servicio en nuestra entidad.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     {/* 
       <div
         className="seperation-line"
         style={{
@@ -104,15 +101,76 @@ Favorecer una mayor integración social y una mejor calidad de vida.
           margin: "37px auto",
         }}
       ></div>
+    */} 
 
-
+      <div className="about-us">
+        <div className="container">
+          <div className="row w-100 mx-auto">
+            <div className="col-md-6 mt-5 order-5">
+              <div className="section-heading">
+                <span>Un poco de historia...</span>
+                <h2> ¿Cómo nacio la asociacion?</h2>
+                <p>
+                  El 9 de setiembre de 1981, se firma el Boleto de Compra venta con la Municipalidad de la Ciudad 
+                  de Buenos Aires, por un predio municipal ubicado en la Avenida Cruz con el objetivo de construir 
+                  un Campo Deportivo y un Hogar. En 1983 se firma la escritura. 
+                 </p>
+                <br></br>
+                <p>
+                  En el predio se construyó una cancha, de fútbol, de patín, básquet, 
+                  pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, 
+                  oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros 
+                  concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, 
+                  radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.               
+                
+                  </p>
+               
+              </div>
+            </div>
+            <div className="col-md-6 mt-5 d-flex order-6">
+              <div className="image m-auto" style={{ width: "80%" }}>
+                <img src="/images/team-images/rahul-banerjee-sir.jpg" alt="" />
+              </div>
+            </div>
+            <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
+              <div className="image m-auto">
+                <img src={compromisImg} alt="" />
+              </div>
+            </div>
+            <div className="col-md-6 order-md-8 order-7 mt-5">
+              <div className="section-heading">
+                {/* <span>About us</span> */}
+                <h2 style={style2}>Nuestro compromiso</h2>
+                <p>
+                  The Center for Wellness and Positive Health aims to inculcate good
+                  habits thereby infusing positive and powerful thoughts among our
+                  students and others, so that they could develop a healthy body and
+                  a sound mind necessary for a complete all round holistic and moral
+                  development of their personality.
+                </p>
+                <br />
+                <p>
+                  Our Vision is to create a society of happy, contented and
+                  productive people
+                </p>
+                <br />
+                <p>
+                  It is our mission to create a healthy interactive platform which
+                  will infuse positivity and contentment among students, faculty and
+                  staff in campus as well as outside leading to enthusiasm,
+                  creativity and growth
+                </p>
+              </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        
       <div className="services-section">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
               <div className="section-header">
-
-
             <div className="col-md-6 order-9 mt-5">
               <div className="text">
                 <h2 style={style2}>Nuestra mision y objetivos</h2>
@@ -182,7 +240,7 @@ Favorecer una mayor integración social y una mejor calidad de vida.
            {/*  <WellnessCards />  */}
 
     
-     
+     {/*
       <div className="features-section">
         <div className="container">
           <div className="row">
@@ -258,151 +316,12 @@ Favorecer una mayor integración social y una mejor calidad de vida.
             </div>
           </div>
         </div>
-      </div>   {/**/}
+      </div>   
+      */}
 
       {/* Head Team Section Starts -->  */}
       <section className="team_area section_gap" id="team_area">
-        <div className="container-fluid justify-content-center py-4">
-          <div className="main_title text-center">
-            <h2 style={{ fontWeight: "bold" }}></h2>
-            <p
-              style={{
-                color: "#00bcd4",
-                fontSize: "15px",
-                fontWeight: "500",
-                letterSpacing: "0.5px",
-                display: "inline-block",
-                marginTop: "0px",
-              }}
-            >
-              
-            </p>
-          </div>
-          <div className="row mx-auto team_inner pt-5">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="team_item">
-                <div className="team_img">
-                  <img
-                    className="host-image"
-                    
-                  />
-                </div>
-                <div className="team_name">
-                  <h4>Dr. Amit Neogi</h4>
-                  <p>Center Lead</p>
-                  <p className="mt-20"></p>
-                  {/* <div className="social">
-                    <a href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-envelope-o"></i>
-                    </a>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="team_item">
-                <div className="team_img">
-                  <img
-                    className="host-image"
-                    src="/images/team-images/ap-singh-sir.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="team_name">
-                  <h4>Prof. A.P. Singh</h4>
-                  <p></p>
-                  <p className="mt-20"></p>
-                  {/* <div className="social">
-                    <a href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-envelope-o"></i>
-                    </a>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="team_item">
-                <div className="team_img">
-                  <img
-                    className="host-image"
-                    src="/images/team-images/manuj-sharma-sir.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="team_name">
-                  <h4>Mr. Manuj Sharma</h4>
-                  <p>Training and Placement Officer</p>
-                  <p className="mt-20"></p>
-                  {/* <div className="social">
-                    <a href="#">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-envelope-o"></i>
-                    </a>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="team_item">
-                <div className="team_img">
-                  <img
-                    className="host-image"
-                    src="/images/team-images/mukesh-jadon-sir.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className="team_name">
-                  <h4>Mr. Mukesh Jadon</h4>
-                  <p></p>
-                  <p className="mt-20"></p>
-                  {/* <div className="social">
-                    <a href="#">
-                      <i className="fa fa-facebook" />
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-envelope-o" />
-                    </a>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  
       </section>
       <div
         className="seperation-line"
