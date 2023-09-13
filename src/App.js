@@ -8,10 +8,14 @@ import Footer from "./components/Footer/Footer";
 import Us from "./components/ContactUs/ContactUs";
 import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
+import GalleryContainer from "./components/Gallery/GalleryContainer";
+
+
 import Developers from "./components/Developers/Developers";
 import ActivityDetails from './components/Activity-Details/ActivityDetails'
 import ContactUs from "./components/ContactUs/ContactUs";
 import News from "./components/News/News";
+import { WsapComponent } from './components/WhatsappIcon/WhatsappIcon.js';
 
 
 
@@ -31,10 +35,19 @@ function App() {
               <Gallery />
             </Route>
 
+            <Route exact path="/center-day">
+              <HomePage />
+            </Route>
+
+            <Route exact path="/center-day">
+              <HomePage />
+            </Route>
+
             <Route exact path="/activities">
               <Activities />
             </Route>
-
+             
+            {/*
             <Route exact path="/news">
               <News/>
             </Route>
@@ -42,12 +55,14 @@ function App() {
             <Route exact path="/team">
               <Team />
             </Route>
+            */}
             <Route exact path="/contact">
               <ContactUs />
             </Route>
             <Route exact path="/about">
               <About />
             </Route>
+
             <Route exact path="/developers">
               <Developers/>
             </Route>
@@ -56,8 +71,9 @@ function App() {
             </Route>
           </Switch>
         </Router>
+        <WsapComponent/>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

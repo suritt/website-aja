@@ -1,82 +1,77 @@
 export const teamList = [
   {
-    designation: "Arte",
+    designation: "Centro de dia: Sede Munro",
     list: [
       {
         name: "Musica",
         responsibility: "Tango, Folclore, etc (distintos generos)",
-        image: "/images/team-images/amit-neogi-sir.jpg",
+        image: "/images/nuevas/generic.jpeg",
       },
       {
         name: "Teatro",
-        responsibility: "Práctica con obras y expresion escenica.",
-        image: "images/team-images/ap-singh-sir.jpg",
+        responsibility: "Práctica teatral y expresion escénica.",
+        image: "/images/nuevas/generic.jpeg",
       },
       {
         name: "Plastica",
-        responsibility: "Trabajos con manualidades, collage y elementos de pintura",
-        image: "/images/team-images/manuj-sharma-sir.jpg",
+        responsibility: "Manualidades, Collages, Pinturas,etc",
+        image: "/images/nuevas/generic.jpeg",
       },
      
       {
-        name: "Produccion",
-        responsibility: "Faculty",
-        image: '/images/team-images/kanjalochan-jena-sir.jpg'
+        name: "Baile",
+        responsibility: "Distintos tipos de generos y danzas",
+        image: "/images/nuevas/generic.jpeg",
       }
     ],
   },
   {
-    designation: "Deportes",
+    designation: "Centro de dia: Sede Soldati",
     list: [
       {
         name: "Basquet",
         responsibility: "Practica de baloncesto",
-        image: "/images/team-images/arshitaa-nair-mam.jpg",
+        image: "/images/nuevas/generic.jpeg",
       },
       {
         name: "Futbol",
         responsibility: "Canchas al aire libre",
-        image: "/images/team-images/arshitaa-nair-mam.jpg",
+        image: "/images/nuevas/generic.jpeg",
       },
       {
         name: "Gimnasia",
         responsibility: "Moderadora, Esferodinamia, etc..",
-        image: "/images/team-images/arshitaa-nair-mam.jpg",
+        image: "/images/nuevas/generic.jpeg",
       },
       {
         name: "Natacion",
-        responsibility: "En Verano e invierno",
-        image: "/images/team-images/arshitaa-nair-mam.jpg",
+        responsibility: "En verano e invierno",
+        image: "/images/nuevas/generic.jpeg",
       },
     ],
   },
   {
-    designation: "Present Co-ordinators",
+    designation: "Hogar: Sede Soldati",
     list: [
       {
-        name: "Abhay Kumar Gupta",
-        image: "/images/team-images/Abhay.jpg",
+        name: "Categoria",
+        responsibility: "Detalle",
+        image: "/images/nuevas/generic.jpeg",
       },
       {
-        name: "Mayank Gupta",
-        image: "/images/team-images/Mayank.jpg",
-      },
-    ],
-  },
-  {
-    designation: "Past Co-ordinators",
-    list: [
-      {
-        name: "Abhimanyu Singh Mertiya",
-        image: "/images/team-images/abhimanyu-singh-mertiya.jpg",
+        name: "Categoria",
+        responsibility: "Detalle",
+        image: "/images/nuevas/generic.jpeg",
       },
       {
-        name: "Saurav Kishore",
-        image: "/images/team-images/saurav-kishore.jpg",
+        name: "Categoria",
+        responsibility: "Detalle",
+        image: "/images/nuevas/generic.jpeg",
       },
       {
-        name: "Pranshul Garg",
-        image: "/images/team-images/pranshul-garg.jpg",
+        name: "Categoria",
+        responsibility: "Detalle",
+        image: "/images/nuevas/generic.jpeg",
       },
     ],
   },
@@ -87,19 +82,19 @@ export const studentList = [
     designation: "Comision directiva",
     name_list: [
       {
-        name: "Olive Balda Jaime Pedro",
+        name: "Olive Balda Jaime P.",
         descripcion: "Presidente",
     
       },
       {
-        name: "Lidia E. Crociati de la Vega",
-        descripcion: "vicepresidente",
+        name: "Crociati De la Vega Lidia E.",
+        descripcion: "Vicepresidente",
       },
       {
         name: "Ruben Corrales",
         descripcion: "Secretario",
       },   {
-        name: "Juana Esther Gonzalez de Velesquen",
+        name: "Juana Esther G. de Velesquen",
         descripcion: "Pro Secretaria",
       },
       {
@@ -107,7 +102,7 @@ export const studentList = [
         descripcion: "Tesorero",
       },
       {
-        name: "Margarita Sofía Luna de Ruiz",
+        name: " Luna de Ruiz Margarita Sofía",
         descripcion: "Pro Tesorero",
       },
     ]
@@ -124,7 +119,7 @@ export const studentList = [
         descripcion: "Revisores de cuentas titulares",
       },
       {
-        name: "María Angelica Lemma de Benitez",
+        name: "María A. Lemma de Benitez",
         descripcion: "Revisores de cuentas suplentes",
       },
       {
@@ -133,7 +128,7 @@ export const studentList = [
       },
       {
         name: "Karina Paz",
-        descripcion: "Directora sede capital",
+        descripcion: "Directora sede Capital",
       },
       {
         name: "Patricia Checo",

@@ -4,8 +4,9 @@
 }
 
 .contact-image{
-  /*background-image: url("./../../../public/images/nuevas/taller_1.jpeg");*/
-  background-color: #00a4b9;
+  background-image: url("./../../../public/images/nuevas/a.jpg");
+  height: 300px;
+  /*background-color: #00a4b9;*/
 }
 .contact-us .contact-form {
   margin-right: 30px;

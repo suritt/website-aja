@@ -34,7 +34,7 @@
 }
 
 .team-item > img{
-  height: 234px;
+  height: 100px;
   object-fit:cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: none;

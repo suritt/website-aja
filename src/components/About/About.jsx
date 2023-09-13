@@ -30,155 +30,73 @@ const About = () => {
       </div>
       
 
-      <div className="about-us">
-        <div className="container">
-          <div className="row w-100 mx-auto">
-            <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
-              <div className="image m-auto">
-              <img src={imgHogar} alt="Imagen centro Hogar" width={150} height={500} />
-              </div>
-            </div>
-            <div className="col-md-6 order-md-8 order-7 mt-5">
-              <div className="section-heading">
-                {/* <span>About us</span> */}
-                <h2 style={style2}>HOGAR</h2>
-              
-                <p>
-                
-                En estos momentos nos encontramos ante el desafío de la próxima apertura del Hogar para todas aquellas personas con discapacidad intelectual que no cuenten con grupo familiar propio o familias continentes, o para aquellos concurrentes que asisten a nuestros centros y que en el futuro estén proyectando la posibilidad de vivir en el mismo. Para la población en general se tenderá a respetar su individualidad y privacidad, tendiendo a desarrollar al máximo su autonomía y trabajando hacia un abordaje en donde los residentes del hogar ejerciten su autodeterminación, posibilitándoles los apoyos necesarios para lograr el objetivo anteriormente mencionado.
-
-                
-
-                </p>
-              </div>
-            </div>
-
-            </div>
-        </div>
-      </div>  
-
-
-      
-      <div className="about-us">
-        <div className="container">
-          <div className="row w-100 mx-auto">
-           
-            <div className="col-md-6 order-md-8 order-7 mt-5">
-              <div className="section-heading">
-                {/* <span>About us</span> */}
-                <h2 style={style2}>CENTRO DE DIA</h2>
-                <p>
-                  
-                </p>
-                <br />
-                <p>
-                En el marco de nuestra Institución, entendemos por Centro de día al servicio que tiene por objeto posibilitar a la persona con discapacidad el más adecuado desempeño en la vida cotidiana, mediante la implementación de actividades tendientes a alcanzar el máximo desarrollo posible de sus potencialidades. Fundamentalmente el objetivo es lograr el mayor nivel de independencia posible, brindando la contención que el caso requiere.
-                </p>
-                <br />
-                <p>
-                A través de las actividades que se desarrollan se procura alcanzar los siguientes objetivos específicos: 1- Lograr la máxima independencia personal 2- Adquirir hábitos sociales tendientes a la integración social 3- Desarrollar actividades ocupacionales seleccionadas y organizadas de acuerdo con las posibilidades, y especialmente que respondan al deseo que convoca a cada concurrente en particular. 4- Implementar actividades tendientes a lograr la participación y la implicación singular de los concurrentes en programas de acción acorde con sus posibilidades, que le permitan su despliegue subjetivo. Nuestro Centro de Día procura fundamentalmente brindar contención a personas que por el nivel de discapacidad no estén en condiciones de beneficiarse de programas de educación formal y se trata en todos los casos de estimular intereses en los beneficiarios para alcanzar el mayor nivel de calidad de vida posible.
-
-                </p>
-              </div>
-            </div>
-
-
-
-            <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
-              <div className="image m-auto">
-                <img src={CentroDiaImg} alt="Imagen centro dia" width={200} height={300} />
-              </div>
-            </div>
-
-            </div>
-        </div>
-      </div>  
-
-
-
 
 
 
       <div className="about-us">
         <div className="container">
           <div className="row w-100 mx-auto">
-            <div className="col-md-6 order-1 order-2">
-              <div className="section-heading">
-                <span></span>
-                <h2>Sobre Nosotros</h2>
-                <p>
-                A.J.A inició su vida en Ramsay 2250, Capital Federal, en un sector prestado por la Dirección Nacional de Rehabilitación. Luego de varias gestiones realizadas con el afán de obtener un lugar propio, en 1980 la Comuna de Vicente López otorga primero en comodato y luego como donación una propiedad en la localidad de Munro. En esta sede se desarrollaron actividades no sólo deportivas sino también terapéuticas. Este proyecto motivó el ingreso de varios concurrentes de distintas Obras Sociales como el I.N.S.S.J.Y.P. Gracias al trabajo mancomunado de la Comisión Directiva y el plantel profesional A.J.A logró ser reconocida como Entidad Modelo Categoría A.
-
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 d-flex order-2">
-              <div className="image m-auto">
-                <img src="/images/lnmiit-drone-view.jpg" alt="" />
-              </div>
-            </div>
-            <div className="col-md-6 d-flex order-md-3 order-4 mt-5">
-              <div className="image m-auto">
-                <img
-                  src="https://admissions.lnmiit.ac.in/assets/img/gallery/big/360%20VIEW%20OF%20LNMIIT.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="col-md-6 order-md-4 order-3 mt-5">
-              <div className="text">
-                {/* <h2 style={style2}>About The CWPH</h2> */}
-                <p>
-                 
-                </p>
-              </div>
-            </div>
+          
             <div className="col-md-6 mt-5 order-5">
-              <div className="section-heading">
-                <span>About us</span>
-                <h2>Un poco de historia...</h2>
+              <div className="text">
+                  <div className="image m-auto">
+                    <img src="/images/nuevas/logo_piso.jpeg" width={200} alt="" />
+                  </div>
+              </div>
+            </div>
+        
+            <div className="col-md-6 order-md-4 order-3 mt-5">
+            <div className="section-heading">
+                <span>Un poco de historia...</span>
+                <h2> ¿Cómo nace la asociacion?</h2>
                 <p>
-                  El 9 de setiembre de 1981, se firma el Boleto de Compra venta con la Municipalidad de la Ciudad 
-                  de Buenos Aires, por un predio municipal ubicado en la Avenida Cruz con el objetivo de construir 
-                  un Campo Deportivo y un Hogar. En 1983 se firma la escritura. 
-                 </p>
+                  La Asociación Juvenil Araucana nace el <strong>26 de julio de 1978</strong>, por un grupo de padres de personas con discapacidad intelectual, cuyos objetivos fueron Crear, Fomentar y Desarrollar Centros de Actividades Deportivas, Culturales, Sociales, Laborales y Habitacionales para el desarrollo integral de las personas con discapacidad intelectual.
+                </p>
                 <br></br>
                 <p>
-                   predio se construyó una cancha, de fútbol, de patín, básquet, 
-                  pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, 
-                  oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros 
-                  concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, 
-                  radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.               
-                
-                  </p>
-               
+                Inicialmente se ubicó en Ramsay 2250, CABA, en un sector prestado por la Dirección Nacional de Rehabilitación. 
+                </p>   
+                <br></br>
+                <p>
+                Luego de varias gestiones, en 1980 la Comuna de Vicente López otorga como donación una propiedad en Munro, donde se desarrollaron actividades no sólo deportivas sino también terapéuticas. Este proyecto motivó el ingreso de varios concurrentes de distintas Obras Sociales como el I.N.S.S.J.Y.P. 
+                </p>
+                <br></br>
+                <p>
+                Gracias al trabajo mancomunado de la Comisión Directiva y el plantel profesional A.J.A logró ser reconocida como Entidad Modelo Categoría A.
+                </p>
               </div>
             </div>
             <div className="col-md-6 mt-5 d-flex order-6">
-              <div className="image m-auto" style={{ width: "80%" }}>
-                <img src="/images/team-images/rahul-banerjee-sir.jpg" alt="" />
+   
+              <div className="text ">
+                <div className="image mb-3">
+                  <img src="/images/nuevas/historia.jpg" width={200} alt="" />
+                </div>
+                 
+                <div className="image mb-3">
+                  <img src="/images/nuevas/historia2.jpg" height={250} width={100}  alt="" />
+                </div>
               </div>
             </div>
-            <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
-              <div className="image m-auto">
-                <img src="/images/cwph-logo.jpg" alt="" />
-              </div>
-            </div>
+        
             <div className="col-md-6 order-md-8 order-7 mt-5">
               <div className="section-heading">
                 {/* <span>About us</span> */}
                 <h2 style={style2}></h2>
-                <p>
-             
+               <p>
+                El 9 de septiembre de 1983 , se firma la escritura con la Municipalidad de la Ciudad de Buenos Aires, por un predio municipal ubicado en la Avenida Cruz con el objetivo de construir un Campo Deportivo y un Hogar. 
                 </p>
-                <br />
+                <br></br>
                 <p>
-             
+                En dicho predio se construyó una cancha, de fútbol, de patín, basquet, pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.
                 </p>
-                <br />
+                <br></br>
                 <p>
-                Nuestros logros son fruto del esfuerzo y del trabajo de muchos padres que han pasado a lo largo de estos años, que han colaborado y continúan trabajando, aportando su tiempo y dedicación, al igual que de cada una de las personas que prestan servicio en nuestra entidad.
-
+                Posteriormente se ignauguró un hogar de 1000m2 con capacidad para 45 persona para brindar un servicio integral destinado a satisfacer necesidades básicas, recreación y atención especializada para nuestros concurrentes sin grupo familiar propio o continente.
+                </p>
+                <br></br>
+                <p>
+                En 1996 a raíz del aumento de nuestra población se decidió desdoblar la actividad, funcionando ambas sedes simultáneamente, realizándose en una y otra las mismas actividades.
                 </p>
               </div>
             </div>

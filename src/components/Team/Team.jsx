@@ -1,10 +1,16 @@
 import React from "react";
 import "./Team.css";
+import "./../About/About.css";
+import equipoImg  from "./../../images/equipo_interdiciplinario.jpg";
+
 import { teamList, studentList } from "./teamList";
 
 const Team = () => {
   const style = {
     color: "#000",
+  };
+  const style2 = {
+    fontWeight: "bold",
   };
 
   return (
@@ -119,7 +125,7 @@ El segundo Centro de Día, ubicado en la localidad de Villa Soldati de la Ciudad
                 {/* <span>Our Team</span> */}
                 <h2>Nuestros talleres</h2>
                 <p>
-                  Tenemos distintos talleres que se adaptan ......
+                Conocé los distintos talleres que ofrecemos en nuestra instutción.
                 </p>
               </div>
             </div>
@@ -145,28 +151,132 @@ El segundo Centro de Día, ubicado en la localidad de Villa Soldati de la Ciudad
                 ))}
               </div>
             ))}
-            {studentList.map((list,i) => (
-              <div className="row justify-content-center" style={{ width: "90%" }} key={i}>
-                <div className="w-100 text-center mt-4 mb-4">
-                  <h4>{list.designation}</h4>
-                </div>
-                <div className="col-12 student-list justify-content-center align-items-center">
-                  <ul>
-                    {list.name_list.map((student,j) => (
-                      <li key={j}>
-                        <div>
-                        <h4>{student.name}</h4>
-                        <p>{student.descripcion || " ----"} </p>
-                        </div>
-                      </li>
 
-                    ))}
-                  </ul>
+            
+        <div className="features-section">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-heading">
+                    
+                                      
+                  <div className="about-us">
+                    <div className="container">
+                    <h2 style={style2}>Equipo Interdiciplinario</h2>
+
+                      <div className="row w-100 mx-auto">
+
+
+                      <div className="col-md-6 order-md-12 order-11  mt-5">
+                        <div className="image m-aut mt-5">
+                          <img src={equipoImg} alt="" />
+                        </div>
+                        <div className="image mt-5">
+                          <img src={equipoImg} alt="" />
+                        </div>
+                      </div>
+
+
+                      <div className="col-md-6 order-md-12 order-11  mt-5">
+                        <div className="text">
+                          <br />
+                          <p>
+                            <ul>
+                              <li className="about-list-item">
+                                Médico psiquiatra
+                              </li>
+                              <li className="about-list-item">
+                                Psicólogos
+                              </li>
+                              <li className="about-list-item">
+                                Trabajadores Sociales
+                              </li>
+                              <li className="about-list-item">
+                                Psicopedagogos
+                              </li>
+                              <li className="about-list-item">
+                                Lic. en Educación Especial
+                              </li>
+                              <li className="about-list-item">
+                                Fonoaudiólogos
+                              </li>
+                              <li className="about-list-item">
+                              Lic. en Comunicación
+                              </li>
+                              <li className="about-list-item">
+                              Nutricionistas
+                              </li>
+                              <li className="about-list-item">
+                                Terapistas Ocupacionales
+                              </li>
+                              <li className="about-list-item">
+                              Musicoterapeutas
+                              </li>
+                              <li className="about-list-item">
+                              Psicomotricistas
+                              </li>
+
+                              <li className="about-list-item">
+                              Sociólogos
+                              </li>
+                              <li className="about-list-item">
+                              Profesores en Educación Especial, Educación Física, Computacion y Teatro
+                              </li>
+
+                              <li className="about-list-item">
+                              Periodistas/locutores
+                              </li>
+                              <li className="about-list-item">
+                              Acompañantes Terapéuticos y Auxiliares
+                              </li>
+                            </ul>
+                            <br />
+                          </p>
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+                  </div>      
+                  </div>
                 </div>
-                
               </div>
-            ))}
+            </div>
           </div>
+
+
+                  
+            {studentList.map((list, i) => (
+            <div className="container" key={i}>
+              <div className="row justify-content-center">
+                <div className="col-12 text-center mt-4 mb-4">
+                  <h3 className="mb-3 mt-5">{list.designation}</h3>
+                </div>
+                <div className="col-12">
+                  <div className="row">
+                    {list.name_list.map((student, j) => (
+                      <div className="col-md-4 mb-3" key={j}>
+                        <div className="d-flex align-items-center">
+                          <div className="flex-grow-1">
+                            <h6>{student.name}</h6>
+                            <p>{student.descripcion || " ----"}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          </div>
+          
+      
+        
+            
+            
+           
+          
+            
         </div>
       </div>
       {/* <!-- Team Ends Here --> */}

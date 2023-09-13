@@ -2,23 +2,48 @@
 import { useHistory } from "react-router-dom";
 import "./Activities.css";
 import "./../HomePage/HomePage";
+import CentroDiaImg  from "./../../images/munro.jpg";
+import imgHogar  from "./../../images/soldati.jpg";
+
+
+const activities_Center_List = [
+  {
+    id: "centro-dia-munro",
+    title: "Centro de dia Munro",
+    image: "/images/nuevas/baile_2.jpg",
+    text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?`,
+  },
+  {
+    id: "centro-dia-soldati",
+    title: "Centro de dia Soldati",
+    image: "/images/nuevas/familia.jpg",
+    text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?`,
+  },
+  {
+    id: "hogar-soldati",
+    title: "Hogar Soldati",
+    image: "/images/nuevas/soldati.jpg",
+    text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis distinctio veritatis, dolore, voluptates eligendi quis eos asperiores doloribus ea sed delectus quo repellat ratione dignissimos assumenda corporis maxime quos officia?`,
+  }
+];
 
 const talks_event = [
   {
-    id: "charity-work1",
+    id: "Extraprogramaticas",
     title: "Extraprogramaticas",
     image: "https://www.nuevazona.com.ar/wp-content/uploads/2017/03/Comenz%C3%B3-el-transporte-escolar-para-alumnos-de-la-escuela-integral-N%C2%BA-16-1.jpg",
-    text: `- Viajes recreativos\n
-    - Campamentos
-    - Eventos deportivos
-    - Eventos de Integración
-    `,
-  },
-  {
-    id: "charity-work2",
-    title: "En familia",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQRn9gdTag-w6bvowcFCHl0Xfjf0SMYwpBw&usqp=CAU",
-    text: `Talleres para padres y para hermanos: es modalidad de la institución desde hace cuatro años la implementación de talleres para padres y para hermanos de los concurrentes a fin de abordar problemáticas específicas que sean demandadas en estos espacios. Se propone como otro canal de comunicación y reflexión del trabajo anual que se va llevando adelante con los concurrentes.`,
+    text1: `- Eventos recreativos`,
+    text2: `- Eventos deportivos `,
+    text3: `- Eventos de Integración`,
+    text4: `- Campamentos  `,
+    text5: `- Etc`,
+
   },
   {
     id: "charity-work3",
@@ -26,6 +51,13 @@ const talks_event = [
     image: "https://totenart.com/noticias/wp-content/uploads/2020/02/oleo-noticias-totenart.jpg",
     text: `Texto breve de los tallers`,
   },
+  {
+    id: "charity-work2",
+    title: "En familia",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQRn9gdTag-w6bvowcFCHl0Xfjf0SMYwpBw&usqp=CAU",
+    text: `Talleres para padres y para hermanos: es modalidad de la institución desde hace cuatro años la implementación de talleres para padres y para hermanos de los concurrentes a fin de abordar problemáticas específicas que sean demandadas en estos espacios. Se propone como otro canal de comunicación y reflexión del trabajo anual que se va llevando adelante con los concurrentes.`,
+  },
+
 ];
 
 const lockdown_event = [
@@ -96,28 +128,12 @@ function Activities() {
   };
 
 
-    <div className="features-section">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <div className="section-heading">
-                  <h2> ¿Que hacemos ? </h2>
-            <p>
-              En el año 2015 abre sus puertas el Hogar para personas con discapacidad intelectual con 1150 m2 construidos y capacidad para 45 personas. Con la apertura del mismo se cierra el ciclo del objetivo inicial buscado de ofrecer una solución habitacional estable y definitiva para nuestros concurrentes carentes de grupo familiar propio o continente.
-              Nuestros logros, son fruto del esfuerzo y del trabajo de muchos padres que durante muchos años
-              han estado colaborado, aportando su tiempo y dedicación, al igual que de cada una de las personas 
-              que prestan servicio en nuestra entidad.
-              </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>  
+  
 
   const history = useHistory();
   return (
     <div>
-      <div className="page-heading header-text activity-image">
+      <div className="page-heading header-text activity-image2">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -125,7 +141,7 @@ function Activities() {
               <p style={style}>
                 <a style={style} href="/">
                  
-                </a>{" "}
+                  </a>{" "}
                  <span style={style}>Activities</span>
               </p>
             </div>
@@ -136,16 +152,111 @@ function Activities() {
       <div className="services-section services-page">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-12">
+           {/*  <div className="col-md-12">
               <div className="activities-section-heading">
                 <h2></h2>
                 <p>
-                 
                 </p>
               </div>
             </div>
-            <div className="col-md-12">
-              <h3 style={style2}></h3>
+            */}
+            
+
+            <div className="about-us">
+              <div className="container">
+              <h2 className="text-center mb-5"> Servicios a la comunidad </h2>
+
+                <div className="row w-100 mx-auto">  
+                
+                  <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
+                    <div className="image m-auto">
+                    <img src={imgHogar} alt="Imagen centro Hogar" width={150} height={500} />
+                    </div>
+                  </div>
+                  <div className="col-md-6 order-md-8 order-7 mt-5">
+                    <div className="section-heading text-center mb-5">
+                      {/* <span>About us</span> */}
+                      <h3 className="mb-3" style={style2}>HOGAR</h3>
+                    
+                      <p className="descripcion">
+                        Brindamos una cobertura de Vivienda, alimentación, recreación, atención y apoyo a las personas con discapacidad intelectual carentes de grupo familiar propio o qué teniendo un grupo familiar, éste no pueda ser continente. 
+                      </p>
+                      <br></br>
+                      <p>
+                      Emplazado dentro del predio de <strong> Villa Soldati </strong>, CABA, antes mencionado abarcando una superficie de 1.150 metros cuadrados albergando a 45 residentes y una plantilla de empleados que asciende a 25 personas.
+                      </p>
+                    </div>
+                  </div>
+
+                  </div>
+              </div>
+            </div>
+
+
+            <div className="about-us">
+              <div className="container">
+                <div className="row w-100 mx-auto">
+                
+                  <div className="col-md-6 order-md-8 order-7 mt-5">
+
+                    <div className="image m-auto">
+                      <img src={CentroDiaImg} alt="Imagen centro dia" width={200} height={300} />
+                    </div>
+              
+                  </div>
+
+                  <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
+                  <div className="section-heading ">
+                      <h3 className="text-center mb-5" style={style2}>CENTRO DE DIA</h3>
+                        <p >
+                        Brindamos al joven o adulto con discapacidad intelectual, la posibilidad de alcanzar el mejor desempeño posible en su vida cotidiana, buscando desarrollar sus habilidades  mediante la implementación de actividades tendientes a alcanzar el máximo desarrollo posible de sus potencialidades.
+                        <br></br>
+                        <p>
+                        En la actualidad administramos <strong> dos Centros de dia </strong>. El mas antiguo, en la localidad de <strong>Munro</strong>, posee una superficie de 1200 metros cuadrados al que asisten 45 concurrentes con una comunidad educativa de 22 empleados.
+                        </p>
+                        <br></br>
+                        <p>
+                        El segundo Centro de Día, ubicado en la localidad de <strong>Villa Soldati</strong> en CABA, posee un predio de 14.500 metros cuadrados entre parque y edificaciones incluyendo al Hogar, y al que asisten 90 concurrentes con una comunidad educativa de 47 empleados.
+                        </p>
+                        </p>
+                      <br />
+                    </div>
+                  </div>
+
+                  </div>
+              </div>
+            </div>  
+
+            {/* <!-- Actividades Start --> */}
+            <div className="text-center col-md-12 mt-5">
+              <h2 style={style2}>Actividades</h2>
+            </div>
+
+            {activities_Center_List.map((event, i) => (
+              <div className="col-lg-4 col-md-6 col-12" key={i}>
+                <div
+                  className="service-item"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    history.push(`/activities/${event.id}`, { state: event });
+                  }}
+                >
+                  <img className="act-image" src={event.image} width={250} height={250} />
+                  <h4 style={style2}>{event.title}</h4>
+                  {/*
+                  <p style={{ textAlign: "justify" }} className="activitiesPara">
+                    {event.text}
+                  </p>
+                   */}
+                </div>
+              </div>
+            ))}
+            {/* <!-- Actividades Ends --> */}
+          
+
+             {/* <!-- Extraprogramaticas Start --> */}
+             <div className="text-center col-md-12 mt-5">
+              <h2 style={style2}>Salidas y Eventos</h2>
             </div>
 
             {talks_event.map((event, i) => (
@@ -157,7 +268,7 @@ function Activities() {
                     history.push(`/activities/${event.id}`, { state: event });
                   }}
                 >
-                  <img className="act-image" src={event.image} />
+                  <img className="act-image" src={event.image} width={250} height={250} />
                   <h4 style={style2}>{event.title}</h4>
                   {/*
                   <p style={{ textAlign: "justify" }} className="activitiesPara">
@@ -186,10 +297,26 @@ function Activities() {
                     style={{ height: "158px" }}
                   />
                   <h4 style={style2}>{event.title}</h4>
-                  <p className="activitiesPara">{event.text}</p>
+                  <p className="activitiesPara">{event.text1 || ""}</p>
+                  <p className="activitiesPara">{event.text2 || ""}</p>
+                  <p className="activitiesPara">{event.text3 || ""}</p>
+                  <p className="activitiesPara">{event.text4 || ""}</p>
+                  <p className="activitiesPara">{event.text5 || ""}</p>
                 </div>
               </div>
             ))}
+            {/* <!-- Extraprogramaticas Ends --> */}
+
+
+
+
+
+
+
+
+
+
+
             <div className="col-md-12" style={{ marginTop: "10px" }}>
               <h3 style={style2}>CWPH Events</h3>
             </div>
@@ -216,27 +343,25 @@ function Activities() {
             <p style={{ textAlign: "left" }}>
               <ul>
               <li>
-                  <h5>Heartfulness Meditation Webinar by CWPH on Nov 20, 2021</h5>
+                  <h5> Centro de Dia Munro</h5>
                   <p>
-                    Online webinar on Mindset and ways to learn Heartfulness
-                    meditation by Rajeev Jaiswal, an alumnus of Y13 batch was held
-                    for 20 November, 2021
+                  actividades1
+
+                  </p>
+                </li>
+                <li>
+                  <h5> Centro de Dia Soldati</h5>
+                  <p>
+                    actividades1
                   </p>
                 </li>
                 <li>
                   <h5>
-                    Role of alternative therapy in dealing with Chronic and
-                    Psychosomatic diseases
+                    Actividades Hogar Soldati
                   </h5>
                   <p>
-                    Center for Wellness and Positive Health (CWPH) had organized a
-                    four day (17 Dec - 20 Dec, 2021) online workshop on 'Role of
-                    Alternative Therapy in Healing Chronic and Psychosomatic
-                    diseases.’ This workshop was planned for laymen to augment their
-                    basic understanding about different alternating therapies, the
-                    diseases it can handle well and how to connect with the right
-                    experts when the situation demands . These therapies contribute a
-                    lot in our life to make us more healthy, productive and happy.
+                  actividades1
+
                   </p>
                 </li>
                 <li>
@@ -248,55 +373,43 @@ function Activities() {
                 </li>
               </ul>
             </p>
-            <div className="col-md-12 seminar-div">
-              <img className="seminar-images" src="/images/cloth1.jpg" alt="image" />
-              <img className="seminar-images" src="/images/cloth2.jpg" alt="image" />
-            </div>
+        
             <p style={{ textAlign: "left" }}>
               <ul>
                 <li>
-                  <h5>Alumni lecture Series, Organized by CWPH</h5>
-                  <p>
-                    On the beginning of new year, a series of talks was organized for
-                    the students from 2 Jan to 8 Jan, 2022 to interact with their
-                    alumni Swati Bhargava (Y06), DVM Teja (Y07), Ayush Kumar (Y10),
-                    Arvind Babel (Y07) and many more. They talked about very
-                    important career driven topics which were quite beneficial for
-                    achieving our goals, like Joy of Programming and How to choose
-                    the Right Career? They also talked about contribution of LNMIIT
-                    in our life. This gave us huge motivation in pursuing great
-                    heights. Following are the YouTube Links of talks:
-                    <ol>
-                      <li style={{ marginTop: "20px" }}>
-                        <a href="https://youtu.be/1pMT_hSMauY" target="none">
-                          Contribution of LNMIIT in my life
-                        </a>
-                      </li>
-                      <li style={{ marginTop: "20px" }}>
-                        <a href="https://youtu.be/z_jK0xkH_wE" target="none">Joy Of Programming</a>
-                      </li>
-                      <li style={{ marginTop: "20px" }}>
-                        <a href="https://youtu.be/nje4ZIrByuw" target="none">
-                          How to choose the right career
-                        </a>
-                      </li>
-                    </ol>
+                  <h5>Proyecto de recilado 2020</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eaque expedita nisi aliquam accusamus minima id provident aut. Quia quam recusandae ratione? Eveniet consequuntur ipsam ad possimus quisquam. Commodi, reprehenderit!
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eaque expedita nisi aliquam accusamus minima id provident aut. Quia quam recusandae ratione? Eveniet consequuntur ipsam ad possimus quisquam. Commodi, reprehenderit!
                   </p>
                 </li>
               </ul>
             </p>
             <div className="col-md-12 seminar-div">
-              <img
-                className="seminar-images"
-                src="/images/alumni-talks.png"
-                alt="image"
-              />
-              <img
-                className="seminar-images"
-                src="/images/saket-modi.png"
-                alt="image"
-              />
+              <img className="seminar-images" src="/images/cloth1.jpg" alt="image" />
+              <img className="seminar-images" src="/images/cloth1.jpg" alt="image" />
             </div>
+
+            
+            <p style={{ textAlign: "left" }}>
+              <ul>
+                <li>
+                  <h5>Proyecto pintura en Centro </h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eaque expedita nisi aliquam accusamus minima id provident aut. Quia quam recusandae ratione? Eveniet consequuntur ipsam ad possimus quisquam. Commodi, reprehenderit!
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eaque expedita nisi aliquam accusamus minima id provident aut. Quia quam recusandae ratione? Eveniet consequuntur ipsam ad possimus quisquam. Commodi, reprehenderit!
+                  </p>
+                </li>
+              </ul>
+            </p>
+            <div className="col-md-12 seminar-div">
+              <img className="seminar-images" src="/images/nuevas/pintura.jpeg" alt="image" />
+              <img className="seminar-images" src="/images/nuevas/taller_1.jpeg" alt="image" />
+              <img className="seminar-images" src="/images/nuevas/taller_2.jpeg" alt="image" />
+
+            </div>
+
+
             <p style={{ textAlign: "left" }}>
               <ul>
                 <li>

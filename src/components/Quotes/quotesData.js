@@ -1,25 +1,19 @@
 const QuotesData = [
   {
-    quoteText:
-      "Genius is one percent inspiration and ninety-nine percent perspiration.",
-    quoteAuthor: "Thomas Edison",
+    quoteAuthor:"Aja es un lugar increible .....",
+      quoteText: "Persona 1",
   },
   {
-    quoteText: "You can E observe a lot just by watching.",
-    quoteAuthor: "Yogi Berra",
+    quoteAuthor:"Conocí AJA en un evento recreativo y me parecio un lugar serio donde fomentan fuertemente la inculsion social",
+      quoteText: "Persona 2",
   },
   {
-    quoteText: "A house divided against itself cannot stand.",
-    quoteAuthor: "Abraham Lincoln",
+    quoteAuthor:"Opinion N° 3, ejemplo",
+      quoteText: "Persona 3",
   },
   {
-    quoteText: "Difficulties increase the nearer we get to the goal.",
-    quoteAuthor: "Johann Wolfgang von Goethe",
-  },
-  {
-    quoteText:
-      "Sometimes the cards we are dealt are not always fair. However you must keep smiling and moving on.",
-    quoteAuthor: "Tom Jackson",
+    quoteAuthor:"Opinion N° 4, ejemplo",
+      quoteText: "Persona 4",
   },
 ];
 export default QuotesData;

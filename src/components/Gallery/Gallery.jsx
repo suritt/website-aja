@@ -1,6 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useHistory } from "react-router-dom";
 import "./Gallery.css";
+import GalleryContainer from "./GalleryContainer.jsx"
+import Test from "./Test.jsx"
+import Divider from "./../Divider/Divider.jsx"
+
+
+const imagenesProyectos = [
+  { ImgCambioImage: '/images/activity_bg.jpg'},
+];
 
 const talks_event = [
   {
@@ -28,23 +36,23 @@ const talks_event = [
 
 const lockdown_event = [
   {
-    id: "charity-work",
-    title: "Salida a Puerto Madero",
-    image: "/images/cwph-poster.png",
+    id: "salidas-recreativas",
+    title: "Salidas recreativas",
+    image: "/images/nuevas/viaje_necochea.jpg",
     text: ``,
-    details: `The center decided to fix posters, with inspirational quotes, on the walls of hostels and messes. It decided to include each and every student of the institute in poster designing. Since students were at their homes due to the lockdown, this task would help them in engaging in some fruitful activity. Thus, a poster competition was announced by the center for students. The top 10 entries were awarded a cash prize of Rs 500 each. `,
+    details: `Realizamos distintas salidas recreativas con la instutcion con la finalidad de promover ..... `,
   },
   {
-    id: "charity-work",
-    title: "Logo Design Competition",
-    image: "/images/logo-design-competition.jpg",
+    id: "eventos-institucionales",
+    title: "Eventos institucionales",
+    image: "/images/nuevas/familia.jpg",
     text: ``,
     details: `Since the center is at the nascent stage, it was in need of a logo that could reflect its motive in an attractive way. This, too, was decided to select using a competition. Best two logos were awarded a cash prize of Rs. 1000 each. Three purposes were solved using this activity. Firstly, students were getting a task to complete even while staying at their homes, thus able to eliminate their boredom. Secondly, the center received its logo. Thirdly, the newly formed center increased its acquaintance among students, who were able to know about the center’s motives and objectives. `,
   },
   {
-    id: "charity-work",
-    title: "Website Design Competition",
-    image: "/images/world-wide-web.svg",
+    id: "eventos-deportivos",
+    title: "Deportivos",
+    image: "/images/nuevas/natacion_munro.jpg",
     text: ``,
     details: `Similarly, another competition was held to design a website for the center. The best design was awarded a cash prize of Rs. 6000.
     `,
@@ -144,8 +152,8 @@ function Gallery() {
                 </div>
               </div>
             ))}
-            <div className="col-md-12" style={{ marginTop: "10px" }}>
-              <h3 style={style2}>Lockdown Events</h3>
+            <div className="col-md-12 text-center" style={{ marginTop: "10px" }}>
+              <h2 style={style2}>Eventos y salidas</h2>
             </div>
             {lockdown_event.map((event, i) => (
               <div className="col-lg-4 col-md-6 col-12" key={i}>
@@ -167,8 +175,8 @@ function Gallery() {
                 </div>
               </div>
             ))}
-            <div className="col-md-12" style={{ marginTop: "10px" }}>
-              <h3 style={style2}>CWPH Events</h3>
+            <div className="col-md-12 text-center" style={{ marginTop: "10px" }}>
+              <h2 style={style2}>xxx xxx</h2>
             </div>
             {cwph_events.map((event, i) => (
               <div className="col-lg-4 col-md-6 col-12" key={i}>
@@ -217,10 +225,9 @@ function Gallery() {
                   </p>
                 </li>
                 <li>
-                  <h5>Cloth Collection and and Distribution</h5>
+                  <h5>Proyecto de colecta solidaria y recolecion </h5>
                   <p>
-                    Clothes were collected and distributed to poor and needy by
-                    members of CWPH.
+                    Ejemploo
                   </p>
                 </li>
               </ul>
@@ -304,6 +311,55 @@ function Gallery() {
                 </li>
               </ul>
             </p>
+
+            <Divider/>
+            <div className="features-section">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-heading ">
+                    <h2 className="mb-5"> Alguno de nuestros proyectos</h2>
+                    
+
+
+                      
+                    <p style={{ textAlign: "left" }}>
+                      <ul>
+                        <li>
+                          <h5>Proyecto 'Cambio de imagen'</h5>
+                          <p>
+                          Se trata de poner a jugar la diferencia, también, en cuanto a la imagen personal. De ofrecer la ocasión para que cada uno elija como quiere verse y como quiere que los demás lo vean. Imaginemos que un joven o un adulto con discapacidad intelectual abre el placard de su habitación. Cuando comienza a sacar la ropa inicia un proceso de descubrimiento. De todas sus prendas: cuáles ha elegido? Cuántas ha comprado él mismo? Cuáles siente como propias? Proponemos que ese placard se vacíe y vuelva a llenarse. Esta vez, de gustos personales, deseos, decisiones, protagonismo, posibilidades... Eso no excluye que ellos mismos vuelvan a elegir mucho de lo que ya tienen. Durante los dos primeros años de llevar a cabo la experiencia varios de los participantes han podido elegir su ropa, el estilo de su peinado o la fragancia de su perfume; recorrer comercios, consultar precios y calidades; decidir y concretar una compra y administrar su dinero. Algunos comentarios de los protagonistas: 'Me sentí como un rey', 'Pareca un galán', 'Me encantaría ir otra vez', 'Me gusta verme linda, que mi novio me vea linda.'
+
+                            <ol>
+                              <li style={{ marginTop: "20px" }}>
+                                <a href="https://youtu.be/1pMT_hSMauY" target="none">
+                                  Contribution of LNMIIT in my life
+                                </a>
+                              </li>
+                              <li style={{ marginTop: "20px" }}>
+                                <a href="https://youtu.be/z_jK0xkH_wE" target="none">Joy Of Programming</a>
+                              </li>
+                              <li style={{ marginTop: "20px" }}>
+                                <a href="https://youtu.be/nje4ZIrByuw" target="none">
+                                  How to choose the right career
+                                </a>
+                              </li>
+                            </ol>
+                          </p>
+                        </li>
+                      </ul>
+                    </p>
+                    <div className="col-md-12 seminar-div">
+                        <img className="seminar-images" src="/images/cloth1.jpg" alt="image" />
+                        <img className="seminar-images" src="/images/cloth2.jpg" alt="image" />
+                      </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
             <div className="col-md-12" style={{ marginTop: "10px" }}>
               <h3 style={style2}>3rd Party Events</h3>
             </div>
@@ -330,47 +386,115 @@ function Gallery() {
             <div className="col-md-12" style={{ marginTop: "10px" }}></div>
             <p style={{ textAlign: "left" }}>
               <ul>
+              
                 <li>
-                  <h5>MANODARPAN by MHRD on July 20, 2020</h5>
+                  <h3>Proyecto Cambio de imagen</h3>
+                  <h5>~ Un espacio pensado para verte diferente ~ Fecha:  </h5>
+                  <img
+                    className="act-image mb-3 mt-2"
+                    src="/images/nuevas/cambio_imagen.jpg"
+                    style={{ height: "200px", width:  "350px",  }}
+                  />
                   <p>
-                    An initiative by MHRD for psychosocial support for Mental Health
-                    & Well Being of Students
+                  Se trata de poner a jugar la diferencia, también, en cuanto a la imagen personal. De ofrecer la ocasión para que cada uno elija como quiere verse y como quiere que los demás lo vean. Imaginemos que un joven o un adulto con discapacidad intelectual abre el placard de su habitación. Cuando comienza a sacar la ropa inicia un proceso de descubrimiento. De todas sus prendas: cuáles ha elegido? Cuántas ha comprado él mismo? Cuáles siente como propias? Proponemos que ese placard se vacíe y vuelva a llenarse. Esta vez, de gustos personales, deseos, decisiones, protagonismo, posibilidades... Eso no excluye que ellos mismos vuelvan a elegir mucho de lo que ya tienen. Durante los dos primeros años de llevar a cabo la experiencia varios de los participantes han podido elegir su ropa, el estilo de su peinado o la fragancia de su perfume; recorrer comercios, consultar precios y calidades; decidir y concretar una compra y administrar su dinero. Algunos comentarios de los protagonistas: 'Me sentí como un rey', 'Pareca un galán', 'Me encantaría ir otra vez', 'Me gusta verme linda, que mi novio me vea linda.'
+                  </p>
+                </li>
+
+                <li>
+                  <h3>Mural de Pintura</h3>
+                  <h5>~ Un espacio de creatividad ~ Fecha:  </h5>
+                  <img
+                    className="act-image m-2 mb-4"
+                    src="/images/nuevas/taller_1.jpeg"
+                    style={{ height: "200px", width:  "350px",  }}
+                  />
+                  <img
+                    className="act-image m-2 mb-4"
+                    src="/images/nuevas/taller_2.jpeg"
+                    style={{ height: "200px", width:  "350px",  }}
+                  />
+                    <img
+                    className="act-image m-2 mb-4"
+                    src="/images/nuevas/taller_3.jpeg"
+                    style={{ height: "200px", width:  "350px",  }}
+                  />
+                  <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid nemo nostrum alias incidunt! Dolor soluta quas dolorum repellendus. Neque ea facilis voluptatem iure odio vero atque eum recusandae deserunt?
+                  </p>
+                </li>
+
+                <li>
+                  <h3>AJA para vos </h3>
+                  <h5>~ Un espacio de radio ~ Fecha:  </h5>
+                  <img
+                    className="act-image m-2 mb-4"
+                    src="/images/nuevas/radio.jpg"
+                    style={{ height: "200px", width:  "350px" }}
+                  />
+                  <img
+                    className="act-image m-2 mb-4"
+                    src="/images/nuevas/radio1.jpg"
+                    style={{ height: "200px", width:  "350px" }}
+                  />
+                  <p>
+                  Todos los miércoles de 15 a 16hs. Por AM 1090
+                  </p>
+                </li>
+                
+                <li>
+                  <h3>Otro proyecto </h3>
+                  <h5>~ Descripcion ~ Fecha:  </h5>
+                  <img
+                    className="act-image m-2 mb-4"
+                    src="/images/nuevas/radio.jpg"
+                    style={{ height: "200px", width:  "350px" }}
+                  />
+                  <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit earum, omnis eius ad fuga nulla repellat tempora amet quaerat? Enim est voluptates ipsum! Voluptatem corporis labore earum ex odio itaque.
+
                   </p>
                 </li>
                 <li>
-                  <h5>Webinar on Yoga and Mental health</h5>
+                  <h5>Proyecto Ejemplo #2, Fecha: - - -</h5>
+
+                  <p>Descripcion de ejemplo...</p>
                   <p>
-                    Dr Gangadhar, the Director of NIMHANS and Dr Hemant Bhargav ,
-                    from very famous mental hospital of India NIMHAMS, Bangalore,
-                    conducted a webinar on Aug 14, 2020
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus expedita amet consectetur illo, vero numquam illum cupiditate! Placeat, recusandae. At obcaecati nihil, deleniti quis quam quos delectus ullam minus dolore!
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus expedita amet consectetur illo, vero numquam illum cupiditate! Placeat, recusandae. At obcaecati nihil, deleniti quis quam quos delectus ullam minus dolore!
                   </p>
                 </li>
-                <li>
-                  <h5>You Only Live Once!</h5>
-                  <p>
-                    A unique interactive STRESS MANAGEMENT SESSION FOR YOUTH, a joint
-                    venture of Babyon's NEWTON CDC, Jaipur, and Adolescent Health
-                    Academy branches of Jaipur and Nagpur and Academy of Pediatrics
-                    Nagpur on Sept 23, 2020. conducted by Well known Pediatrician, a
-                    speaker from Surat and National secretary of Adolescent Health
-                    Academy Dr Sushma Desai on Sept 23, 2020.
-                  </p>
-                </li>
-                <li>
-                  <h5>How to take care of your mental health </h5>
-                  <p>Seminar by SikhNet on Dec 12, 2020</p>
-                </li>
-                <li>
-                  <h5>
-                    Eliminating stress & worry from life by AICTE on April 12,2021
-                  </h5>
-                  <p>
-                   
-                  </p>
-                </li>
+               
               </ul>
             </p>
           </div>
+        
+        
+          <div className="features-section">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-heading">
+                    <h2> Galería de fotos</h2>
+                    <GalleryContainer/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="features-section">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-heading">
+                    <h2> Galería de Videos</h2>
+                    <GalleryContainer/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

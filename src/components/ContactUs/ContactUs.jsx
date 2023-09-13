@@ -12,7 +12,7 @@ const ContactUs = () => {
       {/* <Header /> */}
       <div className="page-heading header-text contact-image">
         
-        {/*
+    
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -24,7 +24,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        */}
+      
       </div>
     
       <div className="contact-us">
@@ -116,7 +116,11 @@ const ContactUs = () => {
                     <ul>
                       <li>
                         <i className="fa fa-envelope"></i> 
-                        contacto@ajaweb.org.ar
+                        contacto1@ajaweb.org.ar
+                      </li>
+                      <li>
+                        <i className="fa fa-envelope"></i> 
+                        contacto2@ajaweb.org.ar
                       </li>
                     </ul>
                   </div>

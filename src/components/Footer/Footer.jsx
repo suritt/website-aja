@@ -13,13 +13,18 @@ const Footer = () => {
           <div className="col-md-4 col-sm-6 col-xs-12">
             <div className="footer-item">
               <div className="footer-heading">
-                <h2> </h2>
+                <h2> Asociacion Juvenil Araucana</h2>
+               
               </div>
               <p>
-                
+                Hogar | Centro de día
               </p>
             </div>
           </div>
+
+
+          
+
 
           <div className="col-md-4 col-sm-6 col-xs-12">
             <div className="footer-item">
@@ -43,7 +48,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/developers" rel="noreferrer">
+                  <a href="https://facebook.com">
 
                   <img src={Facebooklogo} alt="youtube Logo"      
                     style={{
@@ -90,19 +95,21 @@ const Footer = () => {
           <div className="col-md-4 col-sm-6 col-xs-12">
             <div className="footer-item">
               <div className="footer-heading">
-                <h2>More Information</h2>
+                <h2>Contactanos</h2>
               </div>
               <ul className="footer-list">
                 <li>
                   Email:{" "}
-                  <a href="mailto:cl.cwph@lnmiit.ac.in">cl.cwph@lnmiit.ac.in</a>
+                  <a href="mailto:contacto@ajaweb.org.ar">contacto1@ajaweb.org.ar</a>
+                </li>
+                <li>
+                  Email:{" "}
+                  <a href="mailto:contacto@ajaweb.org.ar">contacto2@ajaweb.org.ar</a>
                 </li>
                 {/* <li>
                   Support: <a href="#">support@company.com</a>
                 </li> */}
-                <li>
-                  Website: <a href="/">cwph-lnmiit.vercel.app</a>
-                </li>
+                
               </ul>
             </div>
           </div>

@@ -30,7 +30,7 @@ const News = () => {
             <div className="row w-100 mx-auto">
                 <div className="col-md-6 order-1 order-2">
                     <div className="section-heading">
-                        <span>About Our College</span>
+                        <span>Acerca Nuestro</span>
                         <h2>Sobre Nosotros</h2>
                         <p>
                         La Asociación Juvenil Araucana es una Entidad Civil sin Fines de Lucro, creada el 26 de julio de 1978, por un grupo de padres de personas con discapacidad intelectual, cuyos objetivos fueron Crear, Fomentar y Desarrollar Centros de Actividades Deportivas, Culturales, Sociales, Laborales y Habitacionales para el desarrollo integral de las personas con discapacidad intelectual.
@@ -67,22 +67,38 @@ La misma está dirigida por una Comisión Directiva integrada por catorce padres
 
             <div className="col-md-6 mt-5 order-5">
               <div className="section-heading">
-                <span>About us</span>
-                <h2>Un poco de historia...</h2>
+                <span>Un poco de historia...</span>
+                <h2> ¿Cómo nace la asociacion?</h2>
                 <p>
-                  El 9 de setiembre de 1981, se firma el Boleto de Compra venta con la Municipalidad de la Ciudad 
-                  de Buenos Aires, por un predio municipal ubicado en la Avenida Cruz con el objetivo de construir 
-                  un Campo Deportivo y un Hogar. En 1983 se firma la escritura. 
-                 </p>
-                <br></br>
-                <p>
-                   predio se construyó una cancha, de fútbol, de patín, básquet, 
-                  pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, 
-                  oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros 
-                  concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, 
-                  radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.               
-                
+                  La Asociación Juvenil Araucana nace el 26 de julio de 1978, por un grupo de padres de personas con discapacidad intelectual, cuyos objetivos fueron Crear, Fomentar y Desarrollar Centros de Actividades Deportivas, Culturales, Sociales, Laborales y Habitacionales para el desarrollo integral de las personas con discapacidad intelectual.
                 </p>
+                <p>
+                Inicialmente se ubicó en Ramsay 2250, CABA, en un sector prestado por la Dirección Nacional de Rehabilitación. 
+                </p>          
+                <p>
+                Luego de varias gestiones, en 1980 la Comuna de Vicente López otorga como donación una propiedad en la localidad de Munro. 
+                </p>
+                <p>
+                En esta sede se desarrollaron actividades no sólo deportivas sino también terapéuticas. Este proyecto motivó el ingreso de varios concurrentes de distintas Obras Sociales como el I.N.S.S.J.Y.P. 
+                </p>
+                <p>
+                Gracias al trabajo mancomunado de la Comisión Directiva y el plantel profesional A.J.A logró ser reconocida como Entidad Modelo Categoría A.
+                </p>
+                <p>
+                El 9 de setiembre de 1983 , se firma la escritura con la Municipalidad de la Ciudad de Buenos Aires, por un predio municipal ubicado en la Avenida Cruz con el objetivo de construir un Campo Deportivo y un Hogar. 
+                </p>
+                <p>
+                En dicho predio se construyó una cancha, de fútbol, de patín, basquet, pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.
+                </p>
+                <p>
+                Posteriormente se ignauguró un hogar de 1000m2 con capacidad para 45 persona para brindar un servicio integral destinado a satisfacer necesidades básicas, recreación y atención especializada para nuestros concurrentes sin grupo familiar propio o continente.
+                </p>
+                <p>
+                En 1996 a raíz del aumento de nuestra población se decidió desdoblar la actividad, funcionando ambas sedes simultáneamente, realizándose en una y otra las mismas actividades.
+                </p>
+
+
+
 
               </div>
             </div>
