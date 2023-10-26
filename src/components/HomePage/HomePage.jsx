@@ -83,7 +83,7 @@ const HomePage = () => {
                   />
                 <p>
                 <p className="mb-4">
-                En la actualidad, funcionamos brindando servicios a la comunidad como <a href="/charity-work"> <b>Centro de Dia</b></a> y <a href="/charity-work"> <b>Hogar</b></a>
+                En la actualidad, nuestra asociación funciona brindando servicios a la comunidad como <a href="/charity-work"> <b>Centro de Dia</b></a> y <a href="/charity-work"> <b>Hogar</b></a>
                   </p>
                     En el año 2015 abre sus puertas el Hogar para personas con discapacidad intelectual con 1150 m2 construidos y capacidad para 45 personas. Con la apertura del mismo se cierra el ciclo del objetivo inicial buscado de ofrecer una solución habitacional estable y definitiva para nuestros concurrentes carentes de grupo familiar propio o continente.
                   </p>
@@ -176,125 +176,7 @@ const HomePage = () => {
 
             </div>
         </div>
-      </div>  
-
-      <div className="about-us">
-        <div className="container">
-          <div className="row w-100 mx-auto">
-          
-            <div className="col-md-6 mt-5 order-5">
-              <div className="text">
-                  <div className="image m-auto">
-                    <img src="/images/nuevas/logo_piso.jpeg" width={200} alt="" />
-                  </div>
-              </div>
-            </div>
-        
-            <div className="col-md-6 order-md-4 order-3 mt-5">
-            <div className="section-heading">
-                <span>Un poco de historia...</span>
-                <h2> ¿Cómo nace la asociacion?</h2>
-                <p>
-                  La Asociación Juvenil Araucana nace el <strong>26 de julio de 1978</strong>, por un grupo de padres de personas con discapacidad intelectual, cuyos objetivos fueron Crear, Fomentar y Desarrollar Centros de Actividades Deportivas, Culturales, Sociales, Laborales y Habitacionales para el desarrollo integral de las personas con discapacidad intelectual.
-                </p>
-                <br></br>
-                <p>
-                Inicialmente se ubicó en Ramsay 2250, CABA, en un sector prestado por la Dirección Nacional de Rehabilitación. 
-                </p>   
-                <br></br>
-                <p>
-                Luego de varias gestiones, en 1980 la Comuna de Vicente López otorga como donación una propiedad en Munro, donde se desarrollaron actividades no sólo deportivas sino también terapéuticas. Este proyecto motivó el ingreso de varios concurrentes de distintas Obras Sociales como el I.N.S.S.J.Y.P. 
-                </p>
-                <br></br>
-                <p>
-                Gracias al trabajo mancomunado de la Comisión Directiva y el plantel profesional A.J.A logró ser reconocida como Entidad Modelo Categoría A.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6 mt-5 d-flex order-6">
-   
-              <div className="text ">
-                <div className="image mb-3">
-                  <img src="/images/nuevas/historia.jpg" width={200} alt="" />
-                </div>
-                 
-                <div className="image mb-3">
-                  <img src="/images/nuevas/historia2.jpg" height={250} width={100}  alt="" />
-                </div>
-              </div>
-            </div>
-        
-            <div className="col-md-6 order-md-8 order-7 mt-5">
-              <div className="section-heading">
-                {/* <span>About us</span> */}
-                <h2 style={style2}></h2>
-               <p>
-                El 9 de septiembre de 1983 , se firma la escritura con la Municipalidad de la Ciudad de Buenos Aires, por un predio municipal ubicado en la Avenida Cruz con el objetivo de construir un Campo Deportivo y un Hogar. 
-                </p>
-                <br></br>
-                <p>
-                En dicho predio se construyó una cancha, de fútbol, de patín, basquet, pileta semiolímpica, salón de usos múltiples para 200 personas, vestuarios, oficinas administrativas, cocina comedor y aulas en donde diariamente nuestros concurrentes reciben atención especializada en terapia ocupacional, actividades de la vida diaria, radio, musicoterapia, teatro etc. Todos ellos coordinados por una Directora y un Equipo Interdisciplinario.
-                </p>
-                <br></br>
-                <p>
-                Posteriormente se ignauguró un hogar de 1000m2 con capacidad para 45 persona para brindar un servicio integral destinado a satisfacer necesidades básicas, recreación y atención especializada para nuestros concurrentes sin grupo familiar propio o continente.
-                </p>
-                <br></br>
-                <p>
-                En 1996 a raíz del aumento de nuestra población se decidió desdoblar la actividad, funcionando ambas sedes simultáneamente, realizándose en una y otra las mismas actividades.
-                </p>
-              </div>
-            </div>
-  
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div> 
 
       <div className="about-us">
         <div className="container">

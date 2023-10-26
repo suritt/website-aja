@@ -37,7 +37,7 @@ const Header = () => {
               </Nav.Link>
               */}
               <Nav.Link href="/about" style={{ fontWeight: "bold" }}>
-                Acerca de 
+                Nosotros 
               </Nav.Link>
               <Nav.Link href="/gallery" style={{ fontWeight: "bold" }}>
                 Galeria

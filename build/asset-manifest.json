@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de35ecc0.css",
+    "main.js": "/static/js/main.1ebbbdd4.js",
+    "static/media/banner.jpg": "/static/media/banner.e993a5855b57398c0780.jpg",
+    "static/media/activity_bg.jpg": "/static/media/activity_bg.acc36f45363eebf7175f.jpg",
+    "static/media/history.jpg": "/static/media/history.ead70cc965c6a2e7b170.jpg",
+    "static/media/Instagram.png": "/static/media/Instagram.f74d11a848c25c74d2cc.png",
+    "static/media/codingbg.jpg": "/static/media/codingbg.ec2d015ef0a36faac260.jpg",
+    "static/media/principal.jpeg": "/static/media/principal.72fa82b369e888ee7e97.jpeg",
+    "static/media/taller_1.jpeg": "/static/media/taller_1.b8ac5c43f13ad8602972.jpeg",
+    "static/media/logo.png": "/static/media/logo.456bf36dc943f4085428.png",
+    "static/media/soldati.jpg": "/static/media/soldati.bd8042279bd8f612864a.jpg",
+    "static/media/equipo_interdiciplinario.jpg": "/static/media/equipo_interdiciplinario.61811569707875272752.jpg",
+    "static/media/munro.jpg": "/static/media/munro.d720fd9b3fa3ce868c66.jpg",
+    "static/media/compromiso.jpg": "/static/media/compromiso.ab00341ab19d76f72f28.jpg",
+    "static/media/4.jpg": "/static/media/4.c6a8329685a808970d63.jpg",
+    "static/media/artistic.png": "/static/media/artistic.f71c0c25060930f14010.png",
+    "static/media/2.jpg": "/static/media/2.f1194cf9b3cdbdc8d0ca.jpg",
+    "static/media/a.jpg": "/static/media/a.0a80ac47aee258acb7de.jpg",
+    "static/media/3.jpg": "/static/media/3.4608e622cf30b2acd0c5.jpg",
+    "static/media/Facebook.png": "/static/media/Facebook.213bd97b9a81d06529c2.png",
+    "static/media/1.jpg": "/static/media/1.5055f4e0cf8e320f2993.jpg",
+    "static/media/5.jpg": "/static/media/5.caab5ec085002b68ed33.jpg",
+    "static/media/WhatsApp.svg": "/static/media/WhatsApp.6181e5cecd1a682846ba3e623621a869.svg",
+    "index.html": "/index.html",
+    "main.de35ecc0.css.map": "/static/css/main.de35ecc0.css.map",
+    "main.1ebbbdd4.js.map": "/static/js/main.1ebbbdd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de35ecc0.css",
+    "static/js/main.1ebbbdd4.js"
+  ]
+}

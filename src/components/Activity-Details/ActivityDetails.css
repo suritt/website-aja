@@ -1,5 +1,10 @@
 .details-image{
-    background-image: url("./../../../public/images/nuevas/activity_bg.jpg");
+    background-image: url("./../../../public/images/nuevas/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 60%;
+
 }
 
 .event-image img{

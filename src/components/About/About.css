@@ -1,5 +1,5 @@
-.about-image{
-  background-image: url("./../../../public/images/nuevas/historia.jpg");
+.about-image2{
+  background-image: url("./../../../public/images/nuevas/history.jpg");
 }
 
 .about-us {
@@ -24,4 +24,12 @@
   margin-bottom: 0px;
 }
 
+.equipo ul {
+  list-style-type: none;
+}
+
+.equipo li {
+  font-size: 1.1rem;
+  padding: 0.2rem;
+}
 

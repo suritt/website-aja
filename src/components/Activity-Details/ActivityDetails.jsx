@@ -53,7 +53,7 @@ function ActivityDetails() {
             </div>
             <div className="col-md-6 col-12 mt-md-0 mt-4">
               <div className="event-title">
-                <span style={{color:"#00bcd4"}}>Event Details</span>
+                <span style={{color:"#00bcd4"}}>Actividades</span>
                 <h2 style={style2}>{event_details.title}</h2>
               </div>
                <div className='event-text'>
@@ -122,8 +122,6 @@ function ActivityDetails() {
                     <h2 style={style2}>Equipo Interdiciplinario</h2>
 
                       <div className="row w-100 mx-auto">
-
-
                       <div className="col-md-6 order-md-12 order-11  mt-5">
                         <div className="image m-aut mt-5">
                           <img src={equipoImg} alt="" />

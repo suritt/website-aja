@@ -1,12 +1,28 @@
 import React, { useState } from 'react';
+import "./Gallery.css";
 
 function GalleryContainer() {
 
-      // Definir una lista de imágenes (puedes reemplazar estas URLs por tus propias imágenes)
       const images = [
+        "/images/nuevas/munro_2.jpg",
+        "/images/nuevas/munro_baile.jpg",
+        "/images/nuevas/murga.jpg",
+        "/images/nuevas/circo.jpg",
+        "/images/nuevas/baile_1.jpg",
+        "/images/nuevas/baile_2.jpg",
+        "/images/nuevas/gimnasio_1.jpg",
+        "/images/nuevas/viaje_necochea.jpg",
+        "/images/nuevas/salida_bellas_artes.jpg",
+        "/images/nuevas/salida_monumento.jpg",
+
+        "/images/nuevas/taller_5.jpg",
+        "/images/nuevas/salidas1.jpg",
+
         "/images/nuevas/pintura.jpeg",
         "/images/nuevas/taller_1.jpeg",
         "/images/nuevas/taller_2.jpeg",
+        "/images/nuevas/taller_3.jpeg",
+        "/images/nuevas/taller_4.jpeg",
       ];
     
       // Estado para controlar si se muestra el modal
@@ -31,15 +47,12 @@ function GalleryContainer() {
           <div className="row">
             {images.map((image, index) => (
               <div className="col-md-4" key={index}>
-                <div className="card mb-4">
-                  <img
+                <div className="card mb-4 " >
+                   <img
+                    className="act-image"
                     src={image}
-                    className="card-img-top"
-                    alt={`Image ${index}`}
+                    style={{ height: "300px", cursor: 'pointer' }}
                     onClick={() => openModal(image)}
-                    style={{ cursor: 'pointer' }}
-      
-
                   />
                 </div>
               </div>
@@ -65,7 +78,7 @@ function GalleryContainer() {
           )}
         </div>
       );
-    };
+  }
         
   export default GalleryContainer;
 

@@ -1,49 +1,69 @@
 import React, { useState } from 'react';
-import "./VideoContainer.css";
+import "./Gallery.css";
 
-const ImageGrid = () => {
-  const [showModal, setShowModal] = useState(false);
+function VideoContainer() {
 
-  const handleShowModal = () => {
-    setShowModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
-  };
-
-  return (
-    <div className="container">
-      <div className="row justify-content-center">
-        {/* Repite esto para cada imagen */}
-        <div className="col-md-4">
-          <div className="image-card" onClick={handleShowModal}>
-            <img src="URL_DE_LA_IMAGEN" alt="Imagen" />
+      const images = [
+        "/images/nuevas/generic.jpeg",
+        "/images/nuevas/generic.jpeg",
+        "/images/nuevas/generic.jpeg",
+      ];
+    
+      // Estado para controlar si se muestra el modal
+      const [modalVisible, setModalVisible] = useState(false);
+      // Estado para almacenar la URL de la imagen seleccionada
+      const [selectedImage, setSelectedImage] = useState('');
+    
+      // Función para abrir el modal y mostrar la imagen seleccionada
+      const openModal = (image) => {
+        setSelectedImage(image);
+        setModalVisible(true);
+      };
+    
+      // Función para cerrar el modal
+      const closeModal = () => {
+        setSelectedImage('');
+        setModalVisible(false);
+      };
+    
+      return (
+        <div className="container text-center">
+          <div className="row">
+            {images.map((image, index) => (
+              <div className="col-md-4" key={index}>
+                <div className="card mb-4 " >
+                   <img
+                    className="act-image"
+                    src={image}
+                    style={{ height: "300px", cursor: 'pointer' }}
+                    onClick={() => openModal(image)}
+                  />
+                </div>
+              </div>
+            ))}
           </div>
+    
+          {/* Modal :SACAR EL FALSE que puse yo, no funciona ok el modal */}
+          {modalVisible && false && (
+            <div className="modal fade show" tabIndex="-1" role="dialog" style={{ display: 'block' }}>
+              <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                  <div className="modal-body">
+                    <img src={selectedImage} alt="Selected Image" className="img-fluid" />
+                  </div>
+                  <div className="modal-footer">
+                    <button type="button" className="btn btn-secondary" onClick={closeModal}>
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
-        {/* Fin del bucle */}
-      </div>
+      );
+    }
+        
+  export default VideoContainer;
 
-      {showModal && (
-        <div className="modal-background">
-          <div className="modal">
-            <span className="close" onClick={handleCloseModal}>
-              &times;
-            </span>
-            {/* Aquí coloca tu video en pantalla completa */}
-            <iframe
-              src="URL_DEL_VIDEO"
-              width="100%"
-              height="100%"
-              frameborder="0"
-              allowfullscreen
-              title="Video"
-            ></iframe>
-          </div>
-        </div>
-      )}
-    </div>
-  );
-};
-
-export default ImageGrid;
+ 

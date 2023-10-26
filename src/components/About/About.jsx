@@ -3,6 +3,8 @@ import "./About.css";
 import equipoImg  from "./../../images/equipo_interdiciplinario.jpg";
 import CentroDiaImg  from "./../../images/munro.jpg";
 import imgHogar  from "./../../images/soldati.jpg";
+import { teamDirectiveList } from "./Team";
+import Divider from "../Divider/Divider";
 
 const About = () => {
   const style = {
@@ -13,16 +15,16 @@ const About = () => {
   };
   return (
     <div>
-      <div className="page-heading header-text about-image">
+      <div className="page-heading header-text about-image2">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 style={style}>about</h1>
+              <h1 style={style}>Acerca Nuestro</h1>
               <p style={style}>
                 <a style={style} href="/">
-                  Home
+                  
                 </a>{" "}
-                / <span style={style}>About Us</span>
+                <span style={style}></span>
               </p>
             </div>
           </div>
@@ -78,7 +80,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-        
+
             <div className="col-md-6 order-md-8 order-7 mt-5">
               <div className="section-heading">
                 {/* <span>About us</span> */}
@@ -98,83 +100,16 @@ const About = () => {
                 <p>
                 En 1996 a raíz del aumento de nuestra población se decidió desdoblar la actividad, funcionando ambas sedes simultáneamente, realizándose en una y otra las mismas actividades.
                 </p>
-              </div>
-            </div>
-            <div className="col-md-6 order-9 mt-5">
-              <div className="text">
-                <h2 style={style2}>Objectives</h2>
-                <br />
                 <p>
-                  <h5 style={style2}>1 Centro de día</h5>
-                  <ul>
-                    <li className="about-list-item">
-                    Obtener la máxima independencia personal
-                    </li>
-                    <li className="about-list-item">
-                    Lograr la adquisición y adecuación de hábitos sociales para su mejor integración social
-                    </li>
-                    <li className="about-list-item">
-                    Mejorar la integración a su medio familiar de pertenencia.
-                    </li>
-                    <li className="about-list-item">
-                    Evitar el aislamiento en el seno familiar e institucional.{" "}
-                    </li>
-                    <li className="about-list-item">
-                    Desarrollar actividades ocupacionales
-                    </li>
-                    <li className="about-list-item">
-                    Apoyar y orientar a la Familia
-                    </li>
-                    <li className="about-list-item">
-                    Desarrollar programas de acción comunitaria con la participación de concurrentes
-                    </li>
-                    <li className="about-list-item">
-                    Mantener y/o mejorar conductas de autovalimento
-                    </li>
-                  </ul>
-                  <br />
-                  <h5 style={style2}>2 Hogar</h5>
-                  <ul>
-                    <li className="about-list-item">
-                      Develop strong mind and will power to undertake any challenge.
-                    </li>
-                    <li className="about-list-item">
-                      Develop right attitude to face difficulties and failures in
-                      life.
-                    </li>
-                    <li className="about-list-item">
-                      Develop good concentration, memory, and mental activity in
-                      students.
-                    </li>
-                    <li className="about-list-item">
-                      Be Happy, contented, and cheerful in every situation.{" "}
-                    </li>
-                  </ul>
-                  <br />
-                  <h5 style={style2}>3. Infuse Moral Values</h5>
-                  <ul>
-                    <li className="about-list-item">Be honest with our own self.</li>
-                    <li className="about-list-item">
-                      Be responsible and sincere in performing one’s duty.
-                    </li>
-                    <li className="about-list-item">
-                      Develop respect for others and their opinions.
-                    </li>
-                    <li className="about-list-item">
-                      Develop patience, perseverance, humility and unselfishness.{" "}
-                    </li>
-                  </ul>
-                  <br />
-                  <h5 style={style2}>4. Do Good to others</h5>
-                  <ul>
-                    <li className="about-list-item">
-                      Serve the society/needy and take part in philanthropic
-                      activities whenever possible.
-                    </li>
-                  </ul>
+                En el año 2015 abre sus puertas el Hogar para personas con discapacidad intelectual con 1150 m2 construidos y capacidad para 45 personas. Con la apertura del mismo se cierra el ciclo del objetivo inicial buscado de ofrecer una solución habitacional estable y definitiva para nuestros concurrentes carentes de grupo familiar propio o continente.
                 </p>
               </div>
             </div>
+            
+
+            
+           
+
             <div className="col-md-6 d-flex order-10 mt-5">
               <div className="image m-auto">
                 <img
@@ -197,47 +132,23 @@ const About = () => {
             
             <div className="col-md-6 order-md-12 order-11  mt-5">
               <div className="text">
-                <h2 style={style2}>Our Future Plan</h2>
+                <h2 style={style2}>Nuestra meta a futuro</h2>
                 <br />
                 <p>
-                  <ul>
-                    <li className="about-list-item">
-                      Organizing more workshops on meditation as well as on balancing mind, body and spirit to bring an all 
-                      round holistic development of an individual.
+                  <ul className="mb-3">
+                  <li className="about-list-item mb-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, amet! Doloremque dicta ea, impedit reprehenderit beatae veritatis iste.
                     </li>
-                    <li className="about-list-item">
-                      Organize competitions like Healthy Food competition in 
-                      LNMIIT community and outside.
+                    <li className="about-list-item mb-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, amet! Doloremque dicta ea, impedit reprehenderit beatae veritatis iste.
                     </li>
-                    <li className="about-list-item">
-                      Inspire student clubs to organize functions and competitions 
-                      of social importance.
+                    <li className="about-list-item mb-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, amet! Doloremque dicta ea, impedit reprehenderit beatae veritatis iste.
                     </li>
-                    <li className="about-list-item">
-                      Start some healthy shops of juices and nutritious foods 
-                      in the campus.
+                    <li className="about-list-item mb-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, amet! Doloremque dicta ea, impedit reprehenderit beatae veritatis iste.
                     </li>
-                    <li className="about-list-item">
-                      Start some medical service activities in nearby villages.
-                    </li>
-                    <li className="about-list-item">
-                      Device some techniques to help street dwellers in severe winter.
-                    </li>
-                    <li className="about-list-item">
-                      Start some useful courses from CWPH which will help our students 
-                      develop healthy body and sound mind
-                    </li>
-                    <li className="about-list-item">
-                      Engage students in more societal work so that moral values are 
-                      inculcated into their character.
-                    </li>
-                    <li className="about-list-item">
-                    Construction of a Physical building for Center for Wellness and 
-                    Positive Health: It will have a well ventilated room for meditation, 
-                    a small seminar room for discussion as well as for online viewing 
-                    of YouTube videos along with a small library which will contain 
-                    good books to elevate the mind and spirit of an individual.
-                    </li>
+              
                   </ul>
                   <br />
                 </p>
@@ -246,60 +157,86 @@ const About = () => {
 
             <div className="col-md-6 order-md-12 order-11  mt-5">
               <div className="image m-auto">
-                <img src={equipoImg} alt="" />
+                <img src="/images/nuevas/inclusion.jpg" alt="inclusion imagen" />
               </div>
             </div>
+          </div>
 
-            <div className="col-md-6 order-md-12 order-11  mt-5">
-              <div className="text">
-                <h2 style={style2}>Equipo Interdiciplinario</h2>
-                <br />
+      <div className="services-section">
+        <div className="container">
+          <div className="row">
+          <div className="col-md-12 text-center ">
+              <h2 className="text-center mb-5" style={style2}>Equipo Interdiciplinario</h2>
+              <img src={equipoImg} width={600} height={250} alt="imagen equipo" />
+            </div>
+            <div className="col-md-12">
+            <div className="section-header">
+           
+            <div className="col-md-6 order-9 mt-5 equipo">
+              <div className="text  ">
                 <p>
+                <ul>
+
+                <li className="about-list-item">
+                  Médico psiquiatra
+                </li>
+                
+                <li className="about-list-item">
+                Psicólogos
+                </li>
+                
+                <li className="about-list-item">
+                Trabajadores Sociales
+                </li>
+                <li className="about-list-item">
+                Psicopedagogos
+                </li>
+                <li className="about-list-item">
+                Lic. en Educación Especial
+                </li>
+                <li className="about-list-item">
+                Fonoaudiólogos
+                </li>
+                <li className="about-list-item">
+                Lic. en Comunicación
+                </li>
+                <li className="about-list-item">
+                Nutricionistas
+                </li>
+                <li className="about-list-item">
+                Terapistas Ocupacionales
+                </li>
+                <li className="about-list-item">
+                Musicoterapeutas
+                </li>
+                </ul>
+                </p>
+              </div>
+            </div>
+              
+            <div className="col-md-6 order-9 mt-5 equipo">
+              <div className="text ">
+                <p>
+                
                   <ul>
-                    <li className="about-list-item">
-                      Médico psiquiatra
-                    </li>
-                    <li className="about-list-item">
-                      Psicólogos
-                    </li>
-                    <li className="about-list-item">
-                      Trabajadores Sociales
-                    </li>
-                    <li className="about-list-item">
-                      Trabajadores Sociales
-                    </li>
-                    <li className="about-list-item">
-                      Psicopedagogos
-                    </li>
-                    <li className="about-list-item">
-                      Lic. en Educación Especial
-                    </li>
-                    <li className="about-list-item">
-                      Fonoaudiólogos
-                    </li>
-                    <li className="about-list-item">
-                    Lic. en Comunicación
-                    </li>
-                    <li className="about-list-item">
-                    Nutricionistas
-                    </li>
-                    <li className="about-list-item">
-                      Terapistas Ocupacionales
-                    </li>
-                    <li className="about-list-item">
-                    Musicoterapeutas
-                    </li>
                     <li className="about-list-item">
                     Psicomotricistas
                     </li>
-
                     <li className="about-list-item">
                     Sociólogos
                     </li>
                     <li className="about-list-item">
-                    Profesores en Educación Especial, Educación Física, Computacion y Teatro
+                    Profesores en Educación Especial
                     </li>
-
+                    <li className="about-list-item">
+                    Profesores en Educación Física
+                    </li>
+                    <li className="about-list-item">
+                    Profesores en Computación
+                    </li>
+                    <li className="about-list-item">
+                    Profesores de Teatro
+                    </li>
                     <li className="about-list-item">
                     Periodistas/locutores
                     </li>
@@ -310,11 +247,53 @@ const About = () => {
                     Auxiliares
                     </li>
                   </ul>
-                  <br />
                 </p>
               </div>
             </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+
+        
+          <div className="features-section">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="section-heading">
+                      <h2> ¿Quienes la integran?</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
+           
+          {teamDirectiveList.map((list, i) => (
+            <div className="container" key={i}>
+              <div className="row justify-content-center">
+                <div className="col-12 text-center mb-4">
+                  <h3 className="mb-3 mt-5">{list.designation}</h3>
+                </div>
+                <div className="col-12">
+                  <div className="row">
+                    {list.name_list.map((student, j) => (
+                      <div className="col-md-4 mb-3" key={j}>
+                        <div className="d-flex align-items-center">
+                          <div className="flex-grow-1">
+                            <h6>{student.name}</h6>
+                            <p>{student.descripcion || " ----"}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+
         </div>
       </div>
     </div>

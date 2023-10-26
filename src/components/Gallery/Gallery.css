@@ -1,5 +1,5 @@
 .activity-image {
-    background-image: url("./../../../public/images/nuevas/generic.jpeg");
+    background-image: url("./../../../public/images/nuevas/artistic.png");
   }
   
   .activities-section-heading {
@@ -57,7 +57,12 @@
     width: 30vw;
     margin: auto;
   }
-  
+
+  .title-proyect h3 {
+    color: rgb(41, 126, 217);
+    font-weight: 900;
+  }
+
   @media screen and (max-width: 768px) {
     .seminar-images {
       width: 80vw;

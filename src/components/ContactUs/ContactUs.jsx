@@ -113,15 +113,24 @@ const ContactUs = () => {
                     </ul>
                   </div> */}
                   <div className="col-md-6 col-sm-12">
+
                     <ul>
-                      <li>
+                    <li className="emails">
                         <i className="fa fa-envelope"></i> 
-                        contacto1@ajaweb.org.ar
+                        <strong className=" ml-2">Soldati:</strong>
+                        <p>comisiondirectiva@ajaweb.org.ar
+                        direcciondireccion.cap@ajaweb.org.ar
+                        coordinacion.cap@ajaweb.org
+                        administracion.cap@ajaweb.org
+                        </p>
                       </li>
-                      <li>
-                        <i className="fa fa-envelope"></i> 
-                        contacto2@ajaweb.org.ar
-                      </li>
+                      <li className="emails">
+                        <i className="fa fa-envelope ml-2"></i> 
+                        <strong className=" ml-2">Munro:</strong>
+                        <p>direccion.munro@ajaweb.org.ar
+                        </p>
+                        </li>
+                       
                     </ul>
                   </div>
                 </div>
@@ -146,10 +155,24 @@ const ContactUs = () => {
           margin: "37px auto",
         }}
       ></div>
-      <div className="container">
+      <div className="container mb-5">
         <div className="row">
           <div className="col-md-6 col-sm-12">
-            <h5 className="maps">Sede Central:</h5>
+            <h4 className="maps mb-3 mt-3">Sede Capital:</h4>
+              <div className="section-heading text-center">
+                  <p>
+                  Centro de Día. Jornada Doble. Hogar Permanente
+                  </p>
+                  <p>
+                  Horario Lunes a Viernes de 9.30 a 17.30 hs
+                  </p>
+                  <p>
+                  Av. F. F de la Cruz 2875, Capital Federal.
+                  </p>
+                  <p>
+                  Teléfono: 4918-3271
+                  </p>
+              </div>
               <div className="map" id="map-soldati">
               {/* How to change your own map point
                 1. Go to Google Maps
@@ -171,7 +194,21 @@ const ContactUs = () => {
 
           
           <div className="col-md-6 col-sm-12 ">
-            <h5 className="maps">Sede Munro:</h5>
+          <h4 className="maps mb-3 mt-3">Sede Munro:</h4>
+            <div className="section-heading text-center">
+                <p>
+                Centro de Día. JORNADA DOBLE.
+                  </p>
+                  <p>
+                  Horario. Lunes a Viernes de 9.30 a 17.30 hs.
+                  </p>
+                  <p>
+                  Rivadavia 2696. Munro Pcia de BS As
+                  </p>
+                  <p>
+                  Teléfono: 4762-1071
+                  </p>
+              </div>
             <div className="map" id="map-munro">
               <iframe
                 title="GoogleMapLocation"

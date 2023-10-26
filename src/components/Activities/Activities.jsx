@@ -350,7 +350,7 @@ function Activities() {
                   </p>
                 </li>
                 <li>
-                  <h5> Centro de Dia Soldati</h5>
+                  <h5>  Soldati</h5>
                   <p>
                     actividades1
                   </p>
